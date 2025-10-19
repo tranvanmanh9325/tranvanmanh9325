@@ -94,3 +94,19 @@ I am a passionate Backend Developer who loves turning ideas into reality through
         <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
     </a>
 </div>
+
+---
+
+## 💡 Random Dev Quote
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=omni" alt="Random Dev Quote"/>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=tranvanmanh9325&style=flat-square&color=blue" alt="Profile Views"/>
+  
+  **Thanks for visiting my profile! Feel free to reach out if you want to collaborate on something amazing! 🚀**
+</div>
