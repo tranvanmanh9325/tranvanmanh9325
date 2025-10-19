@@ -47,3 +47,35 @@ I am a passionate Backend Developer who loves turning ideas into reality through
 
 ---
 
+## 🏆 GitHub Trophies
+
+<div align = "center">
+    <img src = "https://github-trophies.vercel.app/?username=tranvanmanh9325&theme=onedark&no-frame=false&no-bg=false&margin-w=4" alt = "GitHub Trophies" />
+</div>
+
+---
+
+## Current Focus
+
+- 🔥 Building high-performance and scalable microservices architecture
+
+- 🎯 Designing and implementing optimized RESTful and GraphQL APIs
+
+- 🧠 Deepening knowledge in system design and distributed systems
+
+- ⚙️ Optimizing backend performance and scalability
+
+- 📚 Contributing to open-source projects focused on backend and infrastructure
+
+---
+
+## Let's Connect
+
+<div align = "center">
+    <a href = "https://www.facebook.com/manh090305/">
+        <img src = "https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt = "Facebook"/>
+    </a>
+    <a href = "mailto:manhtrana1k45tl@gmail.com">
+        <img src = "https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt = "Gmail"/>
+    </a>
+</div>
