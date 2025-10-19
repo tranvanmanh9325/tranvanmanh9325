@@ -1,4 +1,4 @@
-## 🚀 About me
+## 🚀 About Me
 
 I am a passionate Backend Developer who loves turning ideas into reality through code. I specialize in modern web technologies and enjoy building robust, efficient, and scalable backend systems.
 
@@ -34,3 +34,16 @@ I am a passionate Backend Developer who loves turning ideas into reality through
 [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-%23000000.svg?style=for-the-badge&logo=intellijidea&logoColor=white)](https://www.jetbrains.com/idea/)
 
 ---
+
+## 📊 GitHub Stats
+<div align = "center">
+    <img src = "https://github-readme-stats.vercel.app/api?username=tranvanmanh9325&theme=omni&hide_border=false&include_all_commits=true&count_private=false" alt = "GitHub Stats" />
+    <img src = "https://github-readme-streak-stats.herokuapp.com/?user=tranvanmanh9325&theme=omni&hide_border=false" alt = "GitHub Streak" />
+</div>
+
+<div align = "center">
+    <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=tranvanmanh9325&theme=omni&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt = "Top Languages" />
+</div>
+
+---
+
