@@ -71,11 +71,26 @@ I am a passionate Backend Developer who loves turning ideas into reality through
 
 ## Let's Connect
 
-<div align = "center">
-    <a href = "https://www.facebook.com/manh090305/">
-        <img src = "https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt = "Facebook"/>
+<div align="center">
+    <a href="https://www.facebook.com/manh090305/" target="_blank">
+        <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook"/>
     </a>
-    <a href = "mailto:manhtrana1k45tl@gmail.com">
-        <img src = "https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt = "Gmail"/>
+    <a href="https://www.instagram.com/manh090305/" target="_blank">
+        <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+    </a>
+    <a href="https://www.tiktok.com/@tranvanmanh935" target="_blank">
+        <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/>
+    </a>
+</div>
+
+<div align = "center">
+    <a href="https://x.com/tranvanmanh9325" target="_blank">
+        <img src="https://img.shields.io/badge/X%20(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)"/>
+    </a>
+    <a href="https://www.linkedin.com/in/mannh090305/" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    </a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=manhtrana1k45tl@gmail.com" target="_blank">
+        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
     </a>
 </div>
