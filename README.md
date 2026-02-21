@@ -36,21 +36,26 @@ I am a passionate Backend Developer who loves turning ideas into reality through
 ---
 
 ## 📊 GitHub Stats
-<div align = "center">
-    <img src = "https://github-readme-stats.vercel.app/api?username=tranvanmanh9325&theme=omni&hide_border=false&include_all_commits=true&count_private=false" alt = "GitHub Stats" />
-    <img src = "https://github-readme-streak-stats.herokuapp.com/?user=tranvanmanh9325&theme=omni&hide_border=false" alt = "GitHub Streak" />
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tranvanmanh9325&theme=monokai" alt="GitHub Profile Summary" />
 </div>
 
-<div align = "center">
-    <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=tranvanmanh9325&theme=omni&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt = "Top Languages" />
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tranvanmanh9325&theme=monokai" alt="GitHub Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tranvanmanh9325&theme=monokai" alt="Top Languages" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=tranvanmanh9325&theme=omni&hide_border=false" alt="GitHub Streak" />
 </div>
 
 ---
 
 ## 🏆 GitHub Trophies
 
-<div align = "center">
-    <img src = "https://github-trophies.vercel.app/?username=tranvanmanh9325&theme=onedark&no-frame=false&no-bg=false&margin-w=4" alt = "GitHub Trophies" />
+<div align="center">
+  <img src="https://github-trophies.vercel.app/?username=tranvanmanh9325&theme=onedark&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies" />
 </div>
 
 ---
@@ -58,13 +63,9 @@ I am a passionate Backend Developer who loves turning ideas into reality through
 ## Current Focus
 
 - 🔥 Building high-performance and scalable microservices architecture
-
 - 🎯 Designing and implementing optimized RESTful and GraphQL APIs
-
 - 🧠 Deepening knowledge in system design and distributed systems
-
 - ⚙️ Optimizing backend performance and scalability
-
 - 📚 Contributing to open-source projects focused on backend and infrastructure
 
 ---
@@ -72,27 +73,27 @@ I am a passionate Backend Developer who loves turning ideas into reality through
 ## Let's Connect
 
 <div align="center">
-    <a href="https://www.facebook.com/manh090305/" target="_blank">
-        <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook"/>
-    </a>
-    <a href="https://www.instagram.com/manh090305/" target="_blank">
-        <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-    </a>
-    <a href="https://www.tiktok.com/@tranvanmanh935" target="_blank">
-        <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/>
-    </a>
+  <a href="https://www.facebook.com/manh090305/" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook"/>
+  </a>
+  <a href="https://www.instagram.com/manh090305/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+  <a href="https://www.tiktok.com/@tranvanmanh935" target="_blank">
+    <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/>
+  </a>
 </div>
 
-<div align = "center">
-    <a href="https://x.com/tranvanmanh9325" target="_blank">
-        <img src="https://img.shields.io/badge/X%20(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)"/>
-    </a>
-    <a href="https://www.linkedin.com/in/mannh090305/" target="_blank">
-        <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=manhtrana1k45tl@gmail.com" target="_blank">
-        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-    </a>
+<div align="center">
+  <a href="https://x.com/tranvanmanh9325" target="_blank">
+    <img src="https://img.shields.io/badge/X%20(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)"/>
+  </a>
+  <a href="https://www.linkedin.com/in/mannh090305/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=manhtrana1k45tl@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
 </div>
 
 ---
@@ -107,6 +108,6 @@ I am a passionate Backend Developer who loves turning ideas into reality through
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=tranvanmanh9325&style=flat-square&color=blue" alt="Profile Views"/>
-  
+
   **Thanks for visiting my profile! Feel free to reach out if you want to collaborate on something amazing! 🚀**
 </div>
