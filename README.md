@@ -56,19 +56,25 @@
 ### Core Backend & Distributed Systems
 
 <p align="left">
-  <a href="https://skillicons.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=java,spring,postgres,mysql,redis" alt="Core Backend &amp; Data Technologies: Java, Spring Boot, PostgreSQL, MySQL, Redis" /></a>
+  <a href="https://skillicons.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=java,spring,postgres,mysql,redis&theme=light" alt="Core Backend &amp; Data Technologies: Java, Spring Boot, PostgreSQL, MySQL, Redis" /></a>
 </p>
 
 ### Frontend & Modern Web Architecture
 
 <p align="left">
-  <a href="https://skillicons.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts,react,nextjs" alt="Frontend &amp; Modern Web: TypeScript, React, Next.js" /></a>
+  <a href="https://skillicons.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts,react,nextjs&theme=light" alt="Frontend &amp; Modern Web: TypeScript, React, Next.js" /></a>
 </p>
 
 ### Cloud Infrastructure, DevOps & Systems
 
 <p align="left">
-  <a href="https://skillicons.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,git" alt="Cloud Infrastructure, DevOps &amp; Systems: Docker, Kubernetes, Linux, Git" /></a>
+  <a href="https://skillicons.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,git&theme=light" alt="Cloud Infrastructure, DevOps &amp; Systems: Docker, Kubernetes, Linux, Git" /></a>
+</p>
+
+### Observability, Tooling & Architecture
+
+<p align="left">
+  <a href="https://skillicons.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=kafka,grafana,prometheus&theme=light" alt="Observability, Tooling &amp; Architecture: Apache Kafka, Grafana, Prometheus" /></a>
 </p>
 
 ---
@@ -102,6 +108,16 @@
     <source media="(prefers-color-scheme: dark)" srcset="https://github-activity-graph.vercel.app/graph?username=tranvanmanh9325&theme=tokyo-night" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-activity-graph.vercel.app/graph?username=tranvanmanh9325&theme=github-light" />
     <img src="https://github-activity-graph.vercel.app/graph?username=tranvanmanh9325&theme=tokyo-night" alt="GitHub Activity Graph" title="GitHub Contribution Activity Graph" width="95%" />
+  </picture>
+</div>
+
+<br />
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&theme=tokyonight&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&theme=default&hide_border=true" />
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&theme=default&hide_border=true" alt="Top Languages" title="Top Programming Languages" />
   </picture>
 </div>
 
