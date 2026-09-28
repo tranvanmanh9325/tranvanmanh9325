@@ -116,11 +116,7 @@
 <table width="100%">
   <tr>
     <td width="50%" align="center" valign="middle">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
-        <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&langs_count=8&theme=default&hide_border=true" />
-        <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top Languages" title="Top Programming Languages" width="100%" />
-      </picture>
+      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&langs_count=8&theme=default&hide_border=true" alt="Top Languages" title="Top Programming Languages" width="100%" />
     </td>
     <td width="50%" align="center" valign="middle">
       <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tranvanmanh9325&theme=github&utcOffset=7" alt="Productive Time" title="Productive Commit Hours (UTC+7)" width="100%" />
@@ -131,7 +127,7 @@
 <br />
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tranvanmanh9325&theme=github" alt="Profile Details" title="GitHub Profile Details Summary" width="100%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tranvanmanh9325&theme=github_dark" alt="Profile Details" title="GitHub Profile Details Summary" width="100%" />
 </div>
 
 <br />
@@ -139,10 +135,10 @@
 <table width="100%">
   <tr>
     <td width="50%" align="center" valign="middle">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tranvanmanh9325&theme=github" alt="Repositories per Language" title="Repositories per Language Breakdown" width="100%" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tranvanmanh9325&theme=github_dark" alt="Repositories per Language" title="Repositories per Language Breakdown" width="100%" />
     </td>
     <td width="50%" align="center" valign="middle">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tranvanmanh9325&theme=github" alt="Profile Stats" title="GitHub Profile Overall Statistics" width="100%" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tranvanmanh9325&theme=github_dark" alt="Profile Stats" title="GitHub Profile Overall Statistics" width="100%" />
     </td>
   </tr>
 </table>
