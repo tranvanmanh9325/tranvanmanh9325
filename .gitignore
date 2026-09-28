@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+
+# Agent teamwork internal working directory
+.agents/
+
+# Operating System files
+.DS_Store
+Thumbs.db

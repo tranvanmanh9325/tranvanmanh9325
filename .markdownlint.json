@@ -1,0 +1,40 @@
+{
+  "default": true,
+  "MD013": false,
+  "MD024": {
+    "siblings_only": true
+  },
+  "MD033": {
+    "allowed_elements": [
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "div",
+      "p",
+      "a",
+      "img",
+      "br",
+      "hr",
+      "span",
+      "table",
+      "thead",
+      "tbody",
+      "tr",
+      "th",
+      "td",
+      "sub",
+      "sup",
+      "details",
+      "summary",
+      "strong",
+      "b",
+      "em",
+      "i",
+      "code",
+      "kbd"
+    ]
+  }
+}
