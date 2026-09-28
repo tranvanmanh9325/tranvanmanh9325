@@ -51,6 +51,18 @@
 
 ---
 
+## GitHub Achievements
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophies.vercel.app/?username=tranvanmanh9325&theme=tokyonight&no-frame=true&column=6" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophies.vercel.app/?username=tranvanmanh9325&theme=flat&no-frame=true&column=6" />
+    <img src="https://github-profile-trophies.vercel.app/?username=tranvanmanh9325&theme=flat&no-frame=true&column=6" alt="GitHub Trophies" title="GitHub Achievements &amp; Trophies" />
+  </picture>
+</div>
+
+---
+
 ## Technology Stack & Core Competencies
 
 ### Core Backend & Distributed Systems
