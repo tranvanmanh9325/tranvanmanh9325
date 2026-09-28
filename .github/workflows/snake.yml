@@ -1,0 +1,38 @@
+name: Generate Contribution Snake Animation
+
+on:
+  # Lịch trình chạy tự động mỗi 12 giờ
+  schedule:
+    - cron: "0 */12 * * *"
+  # Cho phép kích hoạt thủ công từ tab Actions
+  workflow_dispatch:
+  # Tự động chạy lại khi có push lên nhánh main
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    name: Generate Snake SVGs
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      # Bước 1: Tạo animation SVG săn điểm contribution (hỗ trợ cả dark và light mode)
+      - name: Generate contribution grid snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # Bước 2: Đẩy các tệp SVG sinh ra sang nhánh output
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
