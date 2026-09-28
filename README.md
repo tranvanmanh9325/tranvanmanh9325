@@ -56,37 +56,19 @@
 ### Core Backend & Distributed Systems
 
 <p align="left">
-  <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring,postgres,mysql,redis&amp;theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,spring,postgres,mysql,redis&amp;theme=light" />
-      <img src="https://skillicons.dev/icons?i=java,spring,postgres,mysql,redis" alt="Core Backend &amp; Data Technologies: Java, Spring Boot, PostgreSQL, MySQL, Redis" />
-    </picture>
-  </a>
+  <a href="https://skillicons.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=java,spring,postgres,mysql,redis" alt="Core Backend &amp; Data Technologies: Java, Spring Boot, PostgreSQL, MySQL, Redis" /></a>
 </p>
 
 ### Frontend & Modern Web Architecture
 
 <p align="left">
-  <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,react,nextjs&amp;theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,react,nextjs&amp;theme=light" />
-      <img src="https://skillicons.dev/icons?i=ts,react,nextjs" alt="Frontend &amp; Modern Web: TypeScript, React, Next.js" />
-    </picture>
-  </a>
+  <a href="https://skillicons.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts,react,nextjs" alt="Frontend &amp; Modern Web: TypeScript, React, Next.js" /></a>
 </p>
 
 ### Cloud Infrastructure, DevOps & Systems
 
 <p align="left">
-  <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker,kubernetes,linux,git&amp;theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=docker,kubernetes,linux,git&amp;theme=light" />
-      <img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,git" alt="Cloud Infrastructure, DevOps &amp; Systems: Docker, Kubernetes, Linux, Git" />
-    </picture>
-  </a>
+  <a href="https://skillicons.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,git" alt="Cloud Infrastructure, DevOps &amp; Systems: Docker, Kubernetes, Linux, Git" /></a>
 </p>
 
 ---
