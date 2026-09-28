@@ -1,14 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
   <title>Spring Boot</title>
-  <!-- Base Squircle Container -->
-  <rect x="3" y="3" width="58" height="58" rx="14" fill="#0E2314" stroke="#4CAF50" stroke-width="1.5"/>
-  <!-- Microservices Circuit Stem & Nodes -->
-  <path d="M32 46V28m0 0l-9-9m9 9l9-9m-9 14l-7 7m7-3l7 7" fill="none" stroke="#81C784" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Rapid Boot Power Arc -->
-  <path d="M22 24a14 14 0 1 0 20 0" fill="none" stroke="#4CAF50" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- Boot Node Trigger -->
-  <circle cx="32" cy="18" r="3.5" fill="#4CAF50"/>
-  <circle cx="23" cy="19" r="2.2" fill="#FFFFFF"/>
-  <circle cx="41" cy="19" r="2.2" fill="#FFFFFF"/>
-  <circle cx="32" cy="46" r="2.5" fill="#FFFFFF"/>
+  <!-- Geometric Solid Leaf Body -->
+  <path d="M52 12c-2 18-12 32-26 38-1.5.6-3.2 0-3.8-1.5L12 52c16-2 30-12 36-26 1-4 2.5-9 4-14z" fill="#6DB33F"/>
+  <!-- Power-On Arc Cutout -->
+  <path d="M26 31a9 9 0 1 0 12 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Power-On Stem Cutout -->
+  <line x1="32" y1="21" x2="32" y2="31" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
 </svg>

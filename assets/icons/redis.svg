@@ -1,12 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
   <title>Redis</title>
-  <!-- Base Squircle Container -->
-  <rect x="3" y="3" width="58" height="58" rx="14" fill="#240D0B" stroke="#E53935" stroke-width="1.5"/>
-  <!-- In-Memory Cache Grid (4 RAM cells) -->
-  <rect x="18" y="18" width="12" height="11" rx="2" fill="#3E1513" stroke="#E53935" stroke-width="1.2"/>
-  <rect x="34" y="18" width="12" height="11" rx="2" fill="#3E1513" stroke="#E53935" stroke-width="1.2"/>
-  <rect x="18" y="33" width="12" height="11" rx="2" fill="#3E1513" stroke="#E53935" stroke-width="1.2"/>
-  <rect x="34" y="33" width="12" height="11" rx="2" fill="#3E1513" stroke="#E53935" stroke-width="1.2"/>
-  <!-- Ultra-Fast Lightning Strike -->
-  <path d="M35 15l-8 16h8l-5 18 13-20h-8l6-14z" fill="#FF5252" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round"/>
+  <!-- Bottom Memory Slab -->
+  <path d="M32 40l18 7-18 7-18-7 18-7z" fill="#FF574D"/>
+  <path d="M14 47l18 7v6l-18-7v-6z" fill="#DC382D"/>
+  <path d="M32 54l18-7v6l-18 7v-6z" fill="#A3241C"/>
+  <!-- Middle Memory Slab -->
+  <path d="M32 26l18 7-18 7-18-7 18-7z" fill="#FF574D"/>
+  <path d="M14 33l18 7v6l-18-7v-6z" fill="#DC382D"/>
+  <path d="M32 40l18-7v6l-18 7v-6z" fill="#A3241C"/>
+  <!-- Top Memory Slab -->
+  <path d="M32 12l18 7-18 7-18-7 18-7z" fill="#FF574D"/>
+  <path d="M14 19l18 7v6l-18-7v-6z" fill="#DC382D"/>
+  <path d="M32 26l18-7v6l-18 7v-6z" fill="#A3241C"/>
 </svg>

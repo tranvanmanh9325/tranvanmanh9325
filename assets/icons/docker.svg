@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
   <title>Docker</title>
-  <!-- Base Squircle Container -->
-  <rect x="3" y="3" width="58" height="58" rx="14" fill="#091E30" stroke="#0288D1" stroke-width="1.5"/>
-  <!-- Isometric 3D Modular Container Cube -->
-  <!-- Top Face -->
-  <path d="M32 17l14 8-14 8-14-8 14-8z" fill="#0288D1" stroke="#38BDF8" stroke-width="1.2" stroke-linejoin="round"/>
-  <!-- Left Face -->
-  <path d="M18 25v16l14 8V33L18 25z" fill="#01579B" stroke="#38BDF8" stroke-width="1.2" stroke-linejoin="round"/>
-  <!-- Right Face -->
-  <path d="M32 33v16l14-8V25L32 33z" fill="#0277BD" stroke="#38BDF8" stroke-width="1.2" stroke-linejoin="round"/>
-  <!-- Modular Grid Slots inside Container -->
-  <line x1="25" y1="29" x2="25" y2="45" stroke="#38BDF8" stroke-width="1" stroke-dasharray="2 2"/>
-  <line x1="39" y1="29" x2="39" y2="45" stroke="#38BDF8" stroke-width="1" stroke-dasharray="2 2"/>
-  <circle cx="32" cy="25" r="2" fill="#FFFFFF"/>
+  <!-- Top Row Containers -->
+  <rect x="24" y="18" width="7.5" height="7.5" rx="1.2" fill="#2496ED"/>
+  <rect x="33.5" y="18" width="7.5" height="7.5" rx="1.2" fill="#2496ED"/>
+  <!-- Bottom Row Containers -->
+  <rect x="14.5" y="27.5" width="7.5" height="7.5" rx="1.2" fill="#2496ED"/>
+  <rect x="24" y="27.5" width="7.5" height="7.5" rx="1.2" fill="#2496ED"/>
+  <rect x="33.5" y="27.5" width="7.5" height="7.5" rx="1.2" fill="#2496ED"/>
+  <rect x="43" y="27.5" width="7.5" height="7.5" rx="1.2" fill="#2496ED"/>
+  <!-- Whale Hull Base & Tail -->
+  <path d="M10 38c0 7 6 12 15 12h17c8 0 12-4 13-10l-1-2H10z" fill="#2496ED"/>
+  <path d="M54 38c2-3 3-7 3-10-3 1-5 2-7 3l4 7z" fill="#2496ED"/>
+  <!-- Eye -->
+  <circle cx="17" cy="42" r="1.5" fill="#FFFFFF"/>
 </svg>

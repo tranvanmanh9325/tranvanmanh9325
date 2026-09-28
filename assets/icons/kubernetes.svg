@@ -1,24 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
   <title>Kubernetes</title>
-  <!-- Base Squircle Container -->
-  <rect x="3" y="3" width="58" height="58" rx="14" fill="#0B1B36" stroke="#326CE5" stroke-width="1.5"/>
-  <!-- Central Control Plane Hexagon -->
-  <polygon points="32,23 40,28 40,36 32,41 24,36 24,28" fill="#326CE5" stroke="#FFFFFF" stroke-width="1.5"/>
-  <!-- Core Brain Node -->
+  <!-- Central Hub -->
+  <circle cx="32" cy="32" r="7" fill="#326CE5"/>
   <circle cx="32" cy="32" r="3" fill="#FFFFFF"/>
-  <!-- 6 Orchestrated Pod Nodes & Cluster Mesh Links -->
-  <g stroke="#60A5FA" stroke-width="1.5">
-    <line x1="32" y1="23" x2="32" y2="15"/>
-    <line x1="40" y1="28" x2="47" y2="24"/>
-    <line x1="40" y1="36" x2="47" y2="40"/>
-    <line x1="32" y1="41" x2="32" y2="49"/>
-    <line x1="24" y1="36" x2="17" y2="40"/>
-    <line x1="24" y1="28" x2="17" y2="24"/>
+  <!-- Outer Wheel Rim -->
+  <circle cx="32" cy="32" r="16" fill="none" stroke="#326CE5" stroke-width="3.5"/>
+  <!-- 7 Helmsman Spokes and Handles -->
+  <g stroke="#326CE5" stroke-width="3.2" stroke-linecap="round">
+    <!-- Spoke 1 (0 deg - Top) -->
+    <line x1="32" y1="16" x2="32" y2="8"/>
+    <!-- Spoke 2 (51.4 deg) -->
+    <line x1="44.5" y1="22" x2="50.5" y2="17.2"/>
+    <!-- Spoke 3 (102.8 deg) -->
+    <line x1="47.6" y1="35.5" x2="55" y2="37.2"/>
+    <!-- Spoke 4 (154.3 deg) -->
+    <line x1="38.9" y1="46.4" x2="42.3" y2="53.4"/>
+    <!-- Spoke 5 (205.7 deg) -->
+    <line x1="25.1" y1="46.4" x2="21.7" y2="53.4"/>
+    <!-- Spoke 6 (257.1 deg) -->
+    <line x1="16.4" y1="35.5" x2="9" y2="37.2"/>
+    <!-- Spoke 7 (308.6 deg) -->
+    <line x1="19.5" y1="22" x2="13.5" y2="17.2"/>
   </g>
-  <circle cx="32" cy="14" r="2.5" fill="#FFFFFF"/>
-  <circle cx="48" cy="23" r="2.5" fill="#FFFFFF"/>
-  <circle cx="48" cy="41" r="2.5" fill="#FFFFFF"/>
-  <circle cx="32" cy="50" r="2.5" fill="#FFFFFF"/>
-  <circle cx="16" cy="41" r="2.5" fill="#FFFFFF"/>
-  <circle cx="16" cy="23" r="2.5" fill="#FFFFFF"/>
 </svg>

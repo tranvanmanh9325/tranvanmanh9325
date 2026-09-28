@@ -1,15 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
   <title>PostgreSQL</title>
-  <!-- Base Squircle Container -->
-  <rect x="3" y="3" width="58" height="58" rx="14" fill="#0B1A28" stroke="#336791" stroke-width="1.5"/>
-  <!-- Top Storage Cylinder -->
-  <ellipse cx="32" cy="20" rx="15" ry="5" fill="#1E4970" stroke="#336791" stroke-width="1.5"/>
-  <!-- Mid Storage Cylinder -->
-  <path d="M17 20v10c0 2.8 6.7 5 15 5s15-2.2 15-5V20" fill="none" stroke="#336791" stroke-width="1.5"/>
-  <path d="M17 30v10c0 2.8 6.7 5 15 5s15-2.2 15-5V30" fill="none" stroke="#336791" stroke-width="1.5"/>
-  <!-- Relational Tuples & Schema Link Nodes -->
-  <circle cx="25" cy="29" r="2" fill="#38BDF8"/>
-  <circle cx="39" cy="39" r="2" fill="#38BDF8"/>
-  <path d="M25 29l14 10" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="2 2"/>
-  <text x="32" y="22" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="6.5" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">PG</text>
+  <!-- Geometric Slonik Silhouette -->
+  <path d="M24 14c8-3 18-1 22 5 3 4 4 10 3 16-1 5-4 9-7 12 2 3 5 5 9 5 4 0 7-3 8-7l4 2c-2 6-7 9-13 9-6 0-11-4-13-9-3 1-6 1-9 0-6-2-11-7-12-14-1-6 2-13 7-17 1-.7 2-1.3 4-2z" fill="#336791"/>
+  <!-- Ivory Tusk -->
+  <path d="M33 40c4 0 8-3 9-7" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <!-- Slonik Eye -->
+  <circle cx="28" cy="25" r="2.5" fill="#FFFFFF"/>
 </svg>

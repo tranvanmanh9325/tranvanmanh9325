@@ -1,15 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
   <title>Linux</title>
-  <!-- Base Squircle Container -->
-  <rect x="3" y="3" width="58" height="58" rx="14" fill="#17191E" stroke="#F59E0B" stroke-width="1.5"/>
-  <!-- Protective UNIX Kernel Ring -->
-  <circle cx="32" cy="32" r="20" fill="none" stroke="#4B5563" stroke-width="1.5" stroke-dasharray="4 3"/>
-  <!-- Kernel Crosshair Guides -->
-  <line x1="32" y1="8" x2="32" y2="13" stroke="#F59E0B" stroke-width="1.5"/>
-  <line x1="32" y1="51" x2="32" y2="56" stroke="#F59E0B" stroke-width="1.5"/>
-  <line x1="8" y1="32" x2="13" y2="32" stroke="#F59E0B" stroke-width="1.5"/>
-  <line x1="51" y1="32" x2="56" y2="32" stroke="#F59E0B" stroke-width="1.5"/>
-  <!-- Terminal Prompt >_ -->
-  <path d="M23 26l7 6-7 6" fill="none" stroke="#F59E0B" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="33" y1="38" x2="41" y2="38" stroke="#10B981" stroke-width="3" stroke-linecap="round"/>
+  <!-- Tux Penguin Body Silhouette -->
+  <path d="M32 10c-9 0-14 7-14 16 0 7 2 12-1 16-2 3-3 5-3 7 0 3 5 4 18 4s18-1 18-4c0-2-1-4-3-7-3-4-1-9-1-16 0-9-5-16-14-16z" fill="#231F20"/>
+  <!-- White Belly -->
+  <ellipse cx="32" cy="38" rx="10" ry="12" fill="#FFFFFF"/>
+  <!-- Yellow Beak -->
+  <path d="M26 25h12l-6 6z" fill="#FCC624"/>
+  <!-- Left Eye -->
+  <circle cx="28" cy="20" r="2.2" fill="#FFFFFF"/>
+  <circle cx="28.5" cy="20" r="1.1" fill="#231F20"/>
+  <!-- Right Eye -->
+  <circle cx="36" cy="20" r="2.2" fill="#FFFFFF"/>
+  <circle cx="35.5" cy="20" r="1.1" fill="#231F20"/>
+  <!-- Flipper Feet -->
+  <ellipse cx="23" cy="53" rx="7" ry="3" fill="#FCC624"/>
+  <ellipse cx="41" cy="53" rx="7" ry="3" fill="#FCC624"/>
 </svg>
