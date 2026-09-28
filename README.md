@@ -105,21 +105,47 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-activity-graph.vercel.app/graph?username=tranvanmanh9325&theme=tokyo-night" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-activity-graph.vercel.app/graph?username=tranvanmanh9325&theme=github-light" />
-    <img src="https://github-activity-graph.vercel.app/graph?username=tranvanmanh9325&theme=tokyo-night" alt="GitHub Activity Graph" title="GitHub Contribution Activity Graph" width="95%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-activity-graph.vercel.app/graph?username=tranvanmanh9325&theme=tokyo-night&custom_title=Contribution+Activity+Graph" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-activity-graph.vercel.app/graph?username=tranvanmanh9325&theme=github-light&custom_title=Contribution+Activity+Graph" />
+    <img src="https://github-activity-graph.vercel.app/graph?username=tranvanmanh9325&theme=tokyo-night&custom_title=Contribution+Activity+Graph" alt="Contribution Activity Graph" title="GitHub Contribution Activity Graph" width="100%" />
   </picture>
 </div>
 
 <br />
 
+<table width="100%">
+  <tr>
+    <td width="50%" align="center" valign="middle">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
+        <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&langs_count=8&theme=default&hide_border=true" />
+        <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top Languages" title="Top Programming Languages" width="100%" />
+      </picture>
+    </td>
+    <td width="50%" align="center" valign="middle">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tranvanmanh9325&theme=github&utcOffset=7" alt="Productive Time" title="Productive Commit Hours (UTC+7)" width="100%" />
+    </td>
+  </tr>
+</table>
+
+<br />
+
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&theme=tokyonight&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&theme=default&hide_border=true" />
-    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&theme=default&hide_border=true" alt="Top Languages" title="Top Programming Languages" />
-  </picture>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tranvanmanh9325&theme=github" alt="Profile Details" title="GitHub Profile Details Summary" width="100%" />
 </div>
+
+<br />
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center" valign="middle">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tranvanmanh9325&theme=github" alt="Repositories per Language" title="Repositories per Language Breakdown" width="100%" />
+    </td>
+    <td width="50%" align="center" valign="middle">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tranvanmanh9325&theme=github" alt="Profile Stats" title="GitHub Profile Overall Statistics" width="100%" />
+    </td>
+  </tr>
+</table>
 
 <br />
 
