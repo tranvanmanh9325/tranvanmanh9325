@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Next.js</title>
+  <!-- Base Squircle Container -->
+  <rect x="3" y="3" width="58" height="58" rx="14" fill="#111111" stroke="#E5E5E5" stroke-width="1.5"/>
+  <!-- Geometric Monogram N with Forward Vector -->
+  <path d="M21 44V20h4l14 18V20h4v24h-4L25 26v18h-4z" fill="#FFFFFF"/>
+  <!-- Server / Client Split Velocity Flash -->
+  <path d="M37 20l6 10-4 1 5 13" fill="none" stroke="#9E9E9E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
