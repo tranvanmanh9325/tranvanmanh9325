@@ -56,60 +56,36 @@
 ### Core Backend & Distributed Systems
 
 <p align="left">
-  <a href="https://dev.java" target="_blank" rel="noreferrer">
-    <img src="./assets/icons/java.svg" alt="Java 21 LTS" title="Java 21 LTS - High-Throughput &amp; Virtual Threads" height="44" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://spring.io/projects/spring-boot" target="_blank" rel="noreferrer">
-    <img src="./assets/icons/spring.svg" alt="Spring Boot 3" title="Spring Boot 3 - Microservices &amp; Reactive Gateway" height="44" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer">
-    <img src="./assets/icons/postgresql.svg" alt="PostgreSQL 16" title="PostgreSQL 16 - Relational Schemas &amp; Indexing" height="44" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-    <img src="./assets/icons/mysql.svg" alt="MySQL 8" title="MySQL 8 - Enterprise Storage Engine &amp; Replication" height="44" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://redis.io/" target="_blank" rel="noreferrer">
-    <img src="./assets/icons/redis.svg" alt="Redis 7" title="Redis 7 - In-Memory Caching &amp; Distributed Locks" height="44" />
+  <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring,postgres,mysql,redis&amp;theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,spring,postgres,mysql,redis&amp;theme=light" />
+      <img src="https://skillicons.dev/icons?i=java,spring,postgres,mysql,redis" alt="Core Backend &amp; Data Technologies: Java, Spring Boot, PostgreSQL, MySQL, Redis" />
+    </picture>
   </a>
 </p>
 
 ### Frontend & Modern Web Architecture
 
 <p align="left">
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-    <img src="./assets/icons/typescript.svg" alt="TypeScript" title="TypeScript - Strict Static Typing &amp; Scalability" height="44" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://react.dev/" target="_blank" rel="noreferrer">
-    <img src="./assets/icons/react.svg" alt="React 19" title="React 19 - Component Architecture &amp; State Primitives" height="44" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
-    <img src="./assets/icons/nextjs.svg" alt="Next.js 15" title="Next.js 15 - App Router &amp; Server Components" height="44" />
+  <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,react,nextjs&amp;theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,react,nextjs&amp;theme=light" />
+      <img src="https://skillicons.dev/icons?i=ts,react,nextjs" alt="Frontend &amp; Modern Web: TypeScript, React, Next.js" />
+    </picture>
   </a>
 </p>
 
 ### Cloud Infrastructure, DevOps & Systems
 
 <p align="left">
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
-    <img src="./assets/icons/docker.svg" alt="Docker" title="Docker - Modular Containerization" height="44" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://kubernetes.io/" target="_blank" rel="noreferrer">
-    <img src="./assets/icons/kubernetes.svg" alt="Kubernetes" title="Kubernetes - Cluster Orchestration" height="44" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.kernel.org/" target="_blank" rel="noreferrer">
-    <img src="./assets/icons/linux.svg" alt="Linux OS" title="Linux Systems Administration &amp; CLI" height="44" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="./assets/icons/git.svg" alt="Git VCS" title="Git Version Control &amp; CI/CD Pipelines" height="44" />
+  <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker,kubernetes,linux,git&amp;theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=docker,kubernetes,linux,git&amp;theme=light" />
+      <img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,git" alt="Cloud Infrastructure, DevOps &amp; Systems: Docker, Kubernetes, Linux, Git" />
+    </picture>
   </a>
 </p>
 

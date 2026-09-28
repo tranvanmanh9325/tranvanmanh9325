@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <title>Spring Boot</title>
-  <!-- Geometric Solid Leaf Body -->
-  <path d="M52 12c-2 18-12 32-26 38-1.5.6-3.2 0-3.8-1.5L12 52c16-2 30-12 36-26 1-4 2.5-9 4-14z" fill="#6DB33F"/>
-  <!-- Power-On Arc Cutout -->
-  <path d="M26 31a9 9 0 1 0 12 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
-  <!-- Power-On Stem Cutout -->
-  <line x1="32" y1="21" x2="32" y2="31" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
-</svg>
