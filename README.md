@@ -142,68 +142,13 @@
 
 ## Featured Engineering Projects
 
-<table width="100%">
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/tranvanmanh9325/Booking-Hub-Backend" target="_blank" rel="noreferrer">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=Booking-Hub-Backend&theme=tokyonight&show_owner=true" />
-          <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=Booking-Hub-Backend&theme=default&show_owner=true" />
-          <img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=Booking-Hub-Backend&theme=default&show_owner=true" width="100%" alt="Booking-Hub-Backend" />
-        </picture>
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/tranvanmanh9325/Booking-Hub-Frontend" target="_blank" rel="noreferrer">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=Booking-Hub-Frontend&theme=tokyonight&show_owner=true" />
-          <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=Booking-Hub-Frontend&theme=default&show_owner=true" />
-          <img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=Booking-Hub-Frontend&theme=default&show_owner=true" width="100%" alt="Booking-Hub-Frontend" />
-        </picture>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/vuloi05/Household-Registration-Management-System" target="_blank" rel="noreferrer">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=vuloi05&repo=Household-Registration-Management-System&theme=tokyonight&show_owner=true" />
-          <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=vuloi05&repo=Household-Registration-Management-System&theme=default&show_owner=true" />
-          <img src="https://github-stats-extended.vercel.app/api/pin/?username=vuloi05&repo=Household-Registration-Management-System&theme=default&show_owner=true" width="100%" alt="Household-Registration-Management-System" />
-        </picture>
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/tranvanmanh9325/quan_ly_server" target="_blank" rel="noreferrer">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=quan_ly_server&theme=tokyonight&show_owner=true" />
-          <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=quan_ly_server&theme=default&show_owner=true" />
-          <img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=quan_ly_server&theme=default&show_owner=true" width="100%" alt="quan_ly_server" />
-        </picture>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/tranvanmanh9325/nha_xe_hao_thanh" target="_blank" rel="noreferrer">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=nha_xe_hao_thanh&theme=tokyonight&show_owner=true" />
-          <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=nha_xe_hao_thanh&theme=default&show_owner=true" />
-          <img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=nha_xe_hao_thanh&theme=default&show_owner=true" width="100%" alt="nha_xe_hao_thanh" />
-        </picture>
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/tranvanmanh9325/todolist" target="_blank" rel="noreferrer">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=todolist&theme=tokyonight&show_owner=true" />
-          <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=todolist&theme=default&show_owner=true" />
-          <img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=todolist&theme=default&show_owner=true" width="100%" alt="todolist" />
-        </picture>
-      </a>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects-marquee-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/projects-marquee-light.svg" />
+    <img src="./assets/projects-marquee-light.svg" width="100%" height="160" alt="Featured Engineering Projects" />
+  </picture>
+</div>
 
 ---
 

@@ -1,0 +1,895 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2550 160" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" fill="none">
+  <style>
+    .marquee-track {
+          animation: marquee-scroll 24s linear infinite;
+          will-change: transform;
+        }
+        @keyframes marquee-scroll {
+          0% {
+            transform: translateX(0px);
+          }
+          100% {
+            transform: translateX(-2550px);
+          }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .marquee-track {
+            animation: none !important;
+          }
+        }
+        .header {
+          font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+          fill: #70a5fd;
+        }
+        .description {
+          font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif;
+          fill: #38bdae;
+        }
+        .gray {
+          font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif;
+          fill: #38bdae;
+        }
+        .icon {
+          fill: #bf91f3;
+          display: block;
+        }
+        .badge {
+          font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif;
+        }
+        .badge rect {
+          opacity: 0.2;
+          stroke: #38bdae;
+        }
+        .badge text {
+          fill: #38bdae;
+        }
+        .stat {
+          font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif;
+          fill: #38bdae;
+        }
+        .not_bold { font-weight: 400; }
+        .bold { font-weight: 700; }
+  </style>
+  <g class="marquee-track">
+    <g transform="translate(0, 20)">
+      <svg width="400" height="120" viewBox="0 0 400 120">
+        <rect
+                  data-testid="card-bg"
+                  class="card-bg"
+                  x="0.5"
+                  y="0.5"
+                  rx="4.5"
+                  height="99%"
+                  stroke="#e4e2e2"
+                  width="399"
+                  fill="#1a1b27"
+                  stroke-opacity="1"
+                />
+              <g
+                data-testid="card-title"
+                transform="translate(25, 35)"
+              >
+                <g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                x="0"
+                y="-13"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+              </svg>
+            </g><g transform="translate(25, 0)">
+              <text
+                x="0"
+                y="0"
+                class="header"
+                data-testid="header"
+              >tranvanmanh9325/Booking-Hub-Backend</text>
+            </g>
+              </g>
+                <g
+                  data-testid="main-card-body"
+                  transform="translate(0, 55)"
+                >
+            <text class="description" x="25" y="-5"> 
+              <tspan dy="1.2em" x="25">No description provided</tspan>
+            </text>
+            <g transform="translate(30, 45)">
+              <g transform="translate(0, 0)">
+            <g data-testid="primary-lang">
+              <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#b07219" />
+              <text data-testid="lang-name" class="gray" x="15">Java</text>
+            </g>
+            </g><g transform="translate(47.22000026702881, 0)"><g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                y="-12"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+              </svg>
+            </g><g transform="translate(20, 0)"><text data-testid="stargazers" class="gray">1</text></g></g>
+            </g>
+          <svg x="0" y="0"><g transform="translate(-3, 68)">
+            </g></svg>
+                </g>
+      </svg>
+    </g>
+    <g transform="translate(425, 20)">
+      <svg width="400" height="120" viewBox="0 0 400 120">
+        <rect
+                  data-testid="card-bg"
+                  class="card-bg"
+                  x="0.5"
+                  y="0.5"
+                  rx="4.5"
+                  height="99%"
+                  stroke="#e4e2e2"
+                  width="399"
+                  fill="#1a1b27"
+                  stroke-opacity="1"
+                />
+              <g
+                data-testid="card-title"
+                transform="translate(25, 35)"
+              >
+                <g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                x="0"
+                y="-13"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+              </svg>
+            </g><g transform="translate(25, 0)">
+              <text
+                x="0"
+                y="0"
+                class="header"
+                data-testid="header"
+              >tranvanmanh9325/Booking-Hub-Fronten...</text>
+            </g>
+              </g>
+                <g
+                  data-testid="main-card-body"
+                  transform="translate(0, 55)"
+                >
+            <text class="description" x="25" y="-5"> 
+              <tspan dy="1.2em" x="25">No description provided</tspan>
+            </text>
+            <g transform="translate(30, 45)">
+              <g transform="translate(0, 0)">
+            <g data-testid="primary-lang">
+              <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#3178c6" />
+              <text data-testid="lang-name" class="gray" x="15">TypeScript</text>
+            </g>
+            </g><g transform="translate(80.53999967575072, 0)"><g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                y="-12"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+              </svg>
+            </g><g transform="translate(20, 0)"><text data-testid="stargazers" class="gray">1</text></g></g>
+            </g>
+          <svg x="0" y="0"><g transform="translate(-3, 68)">
+            </g></svg>
+                </g>
+      </svg>
+    </g>
+    <g transform="translate(850, 20)">
+      <svg width="400" height="120" viewBox="0 0 400 120">
+        <rect
+                  data-testid="card-bg"
+                  class="card-bg"
+                  x="0.5"
+                  y="0.5"
+                  rx="4.5"
+                  height="99%"
+                  stroke="#e4e2e2"
+                  width="399"
+                  fill="#1a1b27"
+                  stroke-opacity="1"
+                />
+              <g
+                data-testid="card-title"
+                transform="translate(25, 35)"
+              >
+                <g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                x="0"
+                y="-13"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+              </svg>
+            </g><g transform="translate(25, 0)">
+              <text
+                x="0"
+                y="0"
+                class="header"
+                data-testid="header"
+              >vuloi05/Household-Registration-Mana...</text>
+            </g>
+              </g>
+                <g
+                  data-testid="main-card-body"
+                  transform="translate(0, 55)"
+                >
+            <text class="description" x="25" y="-5"> 
+              <tspan dy="1.2em" x="25">Qu&#7843;n l&#253; d&#226;n c&#432;</tspan>
+            </text>
+            <g transform="translate(30, 45)">
+              <g transform="translate(0, 0)">
+            <g data-testid="primary-lang">
+              <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#3178c6" />
+              <text data-testid="lang-name" class="gray" x="15">TypeScript</text>
+            </g>
+            </g><g transform="translate(80.53999967575072, 0)"><g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                y="-12"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+              </svg>
+            </g><g transform="translate(20, 0)"><text data-testid="stargazers" class="gray">1</text></g></g>
+            </g>
+          <svg x="0" y="0"><g transform="translate(-3, 68)">
+            </g></svg>
+                </g>
+      </svg>
+    </g>
+    <g transform="translate(1275, 10)">
+      <svg width="400" height="140" viewBox="0 0 400 140">
+        <rect
+                  data-testid="card-bg"
+                  class="card-bg"
+                  x="0.5"
+                  y="0.5"
+                  rx="4.5"
+                  height="99%"
+                  stroke="#e4e2e2"
+                  width="399"
+                  fill="#1a1b27"
+                  stroke-opacity="1"
+                />
+              <g
+                data-testid="card-title"
+                transform="translate(25, 35)"
+              >
+                <g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                x="0"
+                y="-13"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+              </svg>
+            </g><g transform="translate(25, 0)">
+              <text
+                x="0"
+                y="0"
+                class="header"
+                data-testid="header"
+              >tranvanmanh9325/quan_ly_server</text>
+            </g>
+              </g>
+                <g
+                  data-testid="main-card-body"
+                  transform="translate(0, 55)"
+                >
+            <text class="description" x="25" y="-5"> 
+              <tspan dy="1.2em" x="25">A real-time server monitoring dashboard that connects to a</tspan><tspan dy="1.2em" x="25">remote Linux host over SSH and displays live system metrics.</tspan>
+            </text>
+            <g transform="translate(30, 65)">
+              <g transform="translate(0, 0)">
+            <g data-testid="primary-lang">
+              <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#3572A5" />
+              <text data-testid="lang-name" class="gray" x="15">Python</text>
+            </g>
+            </g><g transform="translate(62.21999998092651, 0)"><g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                y="-12"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+              </svg>
+            </g><g transform="translate(20, 0)"><text data-testid="stargazers" class="gray">1</text></g></g>
+            </g>
+          <svg x="0" y="0"><g transform="translate(-3, 88)">
+            </g></svg>
+                </g>
+      </svg>
+    </g>
+    <g transform="translate(1700, 20)">
+      <svg width="400" height="120" viewBox="0 0 400 120">
+        <rect
+                  data-testid="card-bg"
+                  class="card-bg"
+                  x="0.5"
+                  y="0.5"
+                  rx="4.5"
+                  height="99%"
+                  stroke="#e4e2e2"
+                  width="399"
+                  fill="#1a1b27"
+                  stroke-opacity="1"
+                />
+              <g
+                data-testid="card-title"
+                transform="translate(25, 35)"
+              >
+                <g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                x="0"
+                y="-13"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+              </svg>
+            </g><g transform="translate(25, 0)">
+              <text
+                x="0"
+                y="0"
+                class="header"
+                data-testid="header"
+              >tranvanmanh9325/nha_xe_hao_thanh</text>
+            </g>
+              </g>
+                <g
+                  data-testid="main-card-body"
+                  transform="translate(0, 55)"
+                >
+            <text class="description" x="25" y="-5"> 
+              <tspan dy="1.2em" x="25">No description provided</tspan>
+            </text>
+            <g transform="translate(30, 45)">
+              <g transform="translate(0, 0)">
+            <g data-testid="primary-lang">
+              <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#f1e05a" />
+              <text data-testid="lang-name" class="gray" x="15">JavaScript</text>
+            </g>
+            </g><g transform="translate(77.34000043869018, 0)"><g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                y="-12"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+              </svg>
+            </g><g transform="translate(20, 0)"><text data-testid="stargazers" class="gray">1</text></g></g>
+            </g>
+          <svg x="0" y="0"><g transform="translate(-3, 68)">
+            </g></svg>
+                </g>
+      </svg>
+    </g>
+    <g transform="translate(2125, 20)">
+      <svg width="400" height="120" viewBox="0 0 400 120">
+        <rect
+                  data-testid="card-bg"
+                  class="card-bg"
+                  x="0.5"
+                  y="0.5"
+                  rx="4.5"
+                  height="99%"
+                  stroke="#e4e2e2"
+                  width="399"
+                  fill="#1a1b27"
+                  stroke-opacity="1"
+                />
+              <g
+                data-testid="card-title"
+                transform="translate(25, 35)"
+              >
+                <g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                x="0"
+                y="-13"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+              </svg>
+            </g><g transform="translate(25, 0)">
+              <text
+                x="0"
+                y="0"
+                class="header"
+                data-testid="header"
+              >tranvanmanh9325/todolist</text>
+            </g>
+              </g>
+                <g
+                  data-testid="main-card-body"
+                  transform="translate(0, 55)"
+                >
+            <text class="description" x="25" y="-5"> 
+              <tspan dy="1.2em" x="25">D&#7921; &#225;n To-Do List s&#7855;p x&#7871;p vi&#7879;c h&#7857;ng ng&#224;y c&#7911;a b&#7841;n</tspan>
+            </text>
+            <g transform="translate(30, 45)">
+              <g transform="translate(0, 0)">
+            <g data-testid="primary-lang">
+              <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#f1e05a" />
+              <text data-testid="lang-name" class="gray" x="15">JavaScript</text>
+            </g>
+            </g><g transform="translate(77.34000043869018, 0)"><g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                y="-12"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+              </svg>
+            </g><g transform="translate(20, 0)"><text data-testid="stargazers" class="gray">1</text></g></g>
+            </g>
+          <svg x="0" y="0"><g transform="translate(-3, 68)">
+            </g></svg>
+                </g>
+      </svg>
+    </g>
+    <g transform="translate(2550, 20)">
+      <svg width="400" height="120" viewBox="0 0 400 120">
+        <rect
+                  data-testid="card-bg"
+                  class="card-bg"
+                  x="0.5"
+                  y="0.5"
+                  rx="4.5"
+                  height="99%"
+                  stroke="#e4e2e2"
+                  width="399"
+                  fill="#1a1b27"
+                  stroke-opacity="1"
+                />
+              <g
+                data-testid="card-title"
+                transform="translate(25, 35)"
+              >
+                <g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                x="0"
+                y="-13"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+              </svg>
+            </g><g transform="translate(25, 0)">
+              <text
+                x="0"
+                y="0"
+                class="header"
+                data-testid="header"
+              >tranvanmanh9325/Booking-Hub-Backend</text>
+            </g>
+              </g>
+                <g
+                  data-testid="main-card-body"
+                  transform="translate(0, 55)"
+                >
+            <text class="description" x="25" y="-5"> 
+              <tspan dy="1.2em" x="25">No description provided</tspan>
+            </text>
+            <g transform="translate(30, 45)">
+              <g transform="translate(0, 0)">
+            <g data-testid="primary-lang">
+              <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#b07219" />
+              <text data-testid="lang-name" class="gray" x="15">Java</text>
+            </g>
+            </g><g transform="translate(47.22000026702881, 0)"><g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                y="-12"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+              </svg>
+            </g><g transform="translate(20, 0)"><text data-testid="stargazers" class="gray">1</text></g></g>
+            </g>
+          <svg x="0" y="0"><g transform="translate(-3, 68)">
+            </g></svg>
+                </g>
+      </svg>
+    </g>
+    <g transform="translate(2975, 20)">
+      <svg width="400" height="120" viewBox="0 0 400 120">
+        <rect
+                  data-testid="card-bg"
+                  class="card-bg"
+                  x="0.5"
+                  y="0.5"
+                  rx="4.5"
+                  height="99%"
+                  stroke="#e4e2e2"
+                  width="399"
+                  fill="#1a1b27"
+                  stroke-opacity="1"
+                />
+              <g
+                data-testid="card-title"
+                transform="translate(25, 35)"
+              >
+                <g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                x="0"
+                y="-13"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+              </svg>
+            </g><g transform="translate(25, 0)">
+              <text
+                x="0"
+                y="0"
+                class="header"
+                data-testid="header"
+              >tranvanmanh9325/Booking-Hub-Fronten...</text>
+            </g>
+              </g>
+                <g
+                  data-testid="main-card-body"
+                  transform="translate(0, 55)"
+                >
+            <text class="description" x="25" y="-5"> 
+              <tspan dy="1.2em" x="25">No description provided</tspan>
+            </text>
+            <g transform="translate(30, 45)">
+              <g transform="translate(0, 0)">
+            <g data-testid="primary-lang">
+              <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#3178c6" />
+              <text data-testid="lang-name" class="gray" x="15">TypeScript</text>
+            </g>
+            </g><g transform="translate(80.53999967575072, 0)"><g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                y="-12"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+              </svg>
+            </g><g transform="translate(20, 0)"><text data-testid="stargazers" class="gray">1</text></g></g>
+            </g>
+          <svg x="0" y="0"><g transform="translate(-3, 68)">
+            </g></svg>
+                </g>
+      </svg>
+    </g>
+    <g transform="translate(3400, 20)">
+      <svg width="400" height="120" viewBox="0 0 400 120">
+        <rect
+                  data-testid="card-bg"
+                  class="card-bg"
+                  x="0.5"
+                  y="0.5"
+                  rx="4.5"
+                  height="99%"
+                  stroke="#e4e2e2"
+                  width="399"
+                  fill="#1a1b27"
+                  stroke-opacity="1"
+                />
+              <g
+                data-testid="card-title"
+                transform="translate(25, 35)"
+              >
+                <g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                x="0"
+                y="-13"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+              </svg>
+            </g><g transform="translate(25, 0)">
+              <text
+                x="0"
+                y="0"
+                class="header"
+                data-testid="header"
+              >vuloi05/Household-Registration-Mana...</text>
+            </g>
+              </g>
+                <g
+                  data-testid="main-card-body"
+                  transform="translate(0, 55)"
+                >
+            <text class="description" x="25" y="-5"> 
+              <tspan dy="1.2em" x="25">Qu&#7843;n l&#253; d&#226;n c&#432;</tspan>
+            </text>
+            <g transform="translate(30, 45)">
+              <g transform="translate(0, 0)">
+            <g data-testid="primary-lang">
+              <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#3178c6" />
+              <text data-testid="lang-name" class="gray" x="15">TypeScript</text>
+            </g>
+            </g><g transform="translate(80.53999967575072, 0)"><g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                y="-12"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+              </svg>
+            </g><g transform="translate(20, 0)"><text data-testid="stargazers" class="gray">1</text></g></g>
+            </g>
+          <svg x="0" y="0"><g transform="translate(-3, 68)">
+            </g></svg>
+                </g>
+      </svg>
+    </g>
+    <g transform="translate(3825, 10)">
+      <svg width="400" height="140" viewBox="0 0 400 140">
+        <rect
+                  data-testid="card-bg"
+                  class="card-bg"
+                  x="0.5"
+                  y="0.5"
+                  rx="4.5"
+                  height="99%"
+                  stroke="#e4e2e2"
+                  width="399"
+                  fill="#1a1b27"
+                  stroke-opacity="1"
+                />
+              <g
+                data-testid="card-title"
+                transform="translate(25, 35)"
+              >
+                <g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                x="0"
+                y="-13"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+              </svg>
+            </g><g transform="translate(25, 0)">
+              <text
+                x="0"
+                y="0"
+                class="header"
+                data-testid="header"
+              >tranvanmanh9325/quan_ly_server</text>
+            </g>
+              </g>
+                <g
+                  data-testid="main-card-body"
+                  transform="translate(0, 55)"
+                >
+            <text class="description" x="25" y="-5"> 
+              <tspan dy="1.2em" x="25">A real-time server monitoring dashboard that connects to a</tspan><tspan dy="1.2em" x="25">remote Linux host over SSH and displays live system metrics.</tspan>
+            </text>
+            <g transform="translate(30, 65)">
+              <g transform="translate(0, 0)">
+            <g data-testid="primary-lang">
+              <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#3572A5" />
+              <text data-testid="lang-name" class="gray" x="15">Python</text>
+            </g>
+            </g><g transform="translate(62.21999998092651, 0)"><g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                y="-12"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+              </svg>
+            </g><g transform="translate(20, 0)"><text data-testid="stargazers" class="gray">1</text></g></g>
+            </g>
+          <svg x="0" y="0"><g transform="translate(-3, 88)">
+            </g></svg>
+                </g>
+      </svg>
+    </g>
+    <g transform="translate(4250, 20)">
+      <svg width="400" height="120" viewBox="0 0 400 120">
+        <rect
+                  data-testid="card-bg"
+                  class="card-bg"
+                  x="0.5"
+                  y="0.5"
+                  rx="4.5"
+                  height="99%"
+                  stroke="#e4e2e2"
+                  width="399"
+                  fill="#1a1b27"
+                  stroke-opacity="1"
+                />
+              <g
+                data-testid="card-title"
+                transform="translate(25, 35)"
+              >
+                <g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                x="0"
+                y="-13"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+              </svg>
+            </g><g transform="translate(25, 0)">
+              <text
+                x="0"
+                y="0"
+                class="header"
+                data-testid="header"
+              >tranvanmanh9325/nha_xe_hao_thanh</text>
+            </g>
+              </g>
+                <g
+                  data-testid="main-card-body"
+                  transform="translate(0, 55)"
+                >
+            <text class="description" x="25" y="-5"> 
+              <tspan dy="1.2em" x="25">No description provided</tspan>
+            </text>
+            <g transform="translate(30, 45)">
+              <g transform="translate(0, 0)">
+            <g data-testid="primary-lang">
+              <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#f1e05a" />
+              <text data-testid="lang-name" class="gray" x="15">JavaScript</text>
+            </g>
+            </g><g transform="translate(77.34000043869018, 0)"><g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                y="-12"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+              </svg>
+            </g><g transform="translate(20, 0)"><text data-testid="stargazers" class="gray">1</text></g></g>
+            </g>
+          <svg x="0" y="0"><g transform="translate(-3, 68)">
+            </g></svg>
+                </g>
+      </svg>
+    </g>
+    <g transform="translate(4675, 20)">
+      <svg width="400" height="120" viewBox="0 0 400 120">
+        <rect
+                  data-testid="card-bg"
+                  class="card-bg"
+                  x="0.5"
+                  y="0.5"
+                  rx="4.5"
+                  height="99%"
+                  stroke="#e4e2e2"
+                  width="399"
+                  fill="#1a1b27"
+                  stroke-opacity="1"
+                />
+              <g
+                data-testid="card-title"
+                transform="translate(25, 35)"
+              >
+                <g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                x="0"
+                y="-13"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+              </svg>
+            </g><g transform="translate(25, 0)">
+              <text
+                x="0"
+                y="0"
+                class="header"
+                data-testid="header"
+              >tranvanmanh9325/todolist</text>
+            </g>
+              </g>
+                <g
+                  data-testid="main-card-body"
+                  transform="translate(0, 55)"
+                >
+            <text class="description" x="25" y="-5"> 
+              <tspan dy="1.2em" x="25">D&#7921; &#225;n To-Do List s&#7855;p x&#7871;p vi&#7879;c h&#7857;ng ng&#224;y c&#7911;a b&#7841;n</tspan>
+            </text>
+            <g transform="translate(30, 45)">
+              <g transform="translate(0, 0)">
+            <g data-testid="primary-lang">
+              <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#f1e05a" />
+              <text data-testid="lang-name" class="gray" x="15">JavaScript</text>
+            </g>
+            </g><g transform="translate(77.34000043869018, 0)"><g transform="translate(0, 0)">
+              <svg
+                class="icon"
+                y="-12"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+              >
+                <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+              </svg>
+            </g><g transform="translate(20, 0)"><text data-testid="stargazers" class="gray">1</text></g></g>
+            </g>
+          <svg x="0" y="0"><g transform="translate(-3, 68)">
+            </g></svg>
+                </g>
+      </svg>
+    </g>
+  </g>
+</svg>
