@@ -65,6 +65,22 @@
 
 ## Technology Stack & Core Competencies
 
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=1000&color=059669&center=true&vCenter=true&width=680&height=40&lines=Backend%3A+Java+21+%E2%80%A2+Spring+Boot+3+%E2%80%A2+PostgreSQL+%E2%80%A2+Redis+%E2%80%A2+Kafka+%E2%80%A2+Python;Frontend%3A+TypeScript+%E2%80%A2+React+%E2%80%A2+Next.js+%E2%80%A2+Tailwind+CSS+%E2%80%A2+JavaScript;DevOps%3A+Docker+%E2%80%A2+Kubernetes+%E2%80%A2+Linux+Internals+%E2%80%A2+Git+%E2%80%A2+GitHub;Observability%3A+Prometheus+%E2%80%A2+Grafana+%E2%80%A2+Postman+%E2%80%A2+IntelliJ+%E2%80%A2+VS+Code" alt="Technology Stack Specializations" />
+</div>
+
+<br />
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-stack-marquee-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/tech-stack-marquee-light.svg" />
+    <img src="./assets/tech-stack-marquee-light.svg" width="100%" height="64" alt="Technology Stack Infinite Scrolling Marquee" />
+  </picture>
+</div>
+
+<br />
+
 ### Core Backend & Distributed Systems
 
 <p align="left">
