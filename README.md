@@ -68,25 +68,45 @@
 ### Core Backend & Distributed Systems
 
 <p align="left">
-  <a href="https://skillicons.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=java,spring,postgres,mysql,redis&theme=light" alt="Core Backend &amp; Data Technologies: Java, Spring Boot, PostgreSQL, MySQL, Redis" /></a>
+  <a href="https://dev.java/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=java&theme=light" width="48" height="48" alt="Java" title="Java" /></a>
+  <a href="https://spring.io/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=spring&theme=light" width="48" height="48" alt="Spring Boot" title="Spring Boot" /></a>
+  <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=postgres&theme=light" width="48" height="48" alt="PostgreSQL" title="PostgreSQL" /></a>
+  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=mysql&theme=light" width="48" height="48" alt="MySQL" title="MySQL" /></a>
+  <a href="https://redis.io/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=redis&theme=light" width="48" height="48" alt="Redis" title="Redis" /></a>
+  <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=python&theme=light" width="48" height="48" alt="Python" title="Python" /></a>
+  <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=kafka&theme=light" width="48" height="48" alt="Apache Kafka" title="Apache Kafka" /></a>
 </p>
 
 ### Frontend & Modern Web Architecture
 
 <p align="left">
-  <a href="https://skillicons.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts,react,nextjs&theme=light" alt="Frontend &amp; Modern Web: TypeScript, React, Next.js" /></a>
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts&theme=light" width="48" height="48" alt="TypeScript" title="TypeScript" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=js&theme=light" width="48" height="48" alt="JavaScript" title="JavaScript" /></a>
+  <a href="https://react.dev/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=react&theme=light" width="48" height="48" alt="React" title="React" /></a>
+  <a href="https://nextjs.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nextjs&theme=light" width="48" height="48" alt="Next.js" title="Next.js" /></a>
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=tailwind&theme=light" width="48" height="48" alt="Tailwind CSS" title="Tailwind CSS" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=html&theme=light" width="48" height="48" alt="HTML5" title="HTML5" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=css&theme=light" width="48" height="48" alt="CSS3" title="CSS3" /></a>
 </p>
 
 ### Cloud Infrastructure, DevOps & Systems
 
 <p align="left">
-  <a href="https://skillicons.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,git&theme=light" alt="Cloud Infrastructure, DevOps &amp; Systems: Docker, Kubernetes, Linux, Git" /></a>
+  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=docker&theme=light" width="48" height="48" alt="Docker" title="Docker" /></a>
+  <a href="https://kubernetes.io/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=kubernetes&theme=light" width="48" height="48" alt="Kubernetes" title="Kubernetes" /></a>
+  <a href="https://www.kernel.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=linux&theme=light" width="48" height="48" alt="Linux" title="Linux" /></a>
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=git&theme=light" width="48" height="48" alt="Git" title="Git" /></a>
+  <a href="https://github.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=github&theme=light" width="48" height="48" alt="GitHub" title="GitHub" /></a>
 </p>
 
 ### Observability, Tooling & Architecture
 
 <p align="left">
-  <a href="https://skillicons.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=kafka,grafana,prometheus&theme=light" alt="Observability, Tooling &amp; Architecture: Apache Kafka, Grafana, Prometheus" /></a>
+  <a href="https://prometheus.io/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=prometheus&theme=light" width="48" height="48" alt="Prometheus" title="Prometheus" /></a>
+  <a href="https://grafana.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=grafana&theme=light" width="48" height="48" alt="Grafana" title="Grafana" /></a>
+  <a href="https://www.postman.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=postman&theme=light" width="48" height="48" alt="Postman" title="Postman" /></a>
+  <a href="https://www.jetbrains.com/idea/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=idea&theme=light" width="48" height="48" alt="IntelliJ IDEA" title="IntelliJ IDEA" /></a>
+  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=vscode&theme=light" width="48" height="48" alt="VS Code" title="VS Code" /></a>
 </p>
 
 ---
