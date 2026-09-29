@@ -113,24 +113,49 @@
 
 ## System Architecture Matrix
 
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=1000&color=2563EB&center=true&vCenter=true&width=650&height=40&lines=High-Throughput+Virtual+Threads+%7C+50%2C000%2B+req%2Fs;Multi-Tier+Redis+L1%2FL2+Caching+%7C+Sub-2ms+Latency;Distributed+Tracing+%26+Observability+%7C+W3C+Context;Fault-Tolerant+Microservices+%7C+99.95%25+Availability" alt="System Architecture Highlights" />
+</div>
+
+<br />
+
 | Architecture Domain | Core Stack | Key Patterns | Core Implementation | SLA & Impact |
 | :--- | :--- | :--- | :--- | :--- |
-| **Concurrency Models & Virtual Threads** | `Java 21 LTS`<br />`Project Loom`<br />`StructuredTaskScope` | Thread-per-Request<br />Structured Concurrency<br />Work-Stealing | • User-mode Virtual Threads unmount on blocking I/O; ReentrantLock avoids carrier pinning.<br />• StructuredTaskScope orchestrates fail-fast concurrency without thread leaks. | • Sustained **50,000+** req/s on 4 vCPU / 8 GB.<br />• Cut per-thread RAM from 1 MB to ~1 KB (>95% savings).<br />• Zero starvation, sub-10ms P99 latency. |
-| **Distributed Caching & High Throughput** | `Redis 7 Cluster`<br />`Redisson / Caffeine`<br />`Bucket4j` | Multi-Tier Cache (L1/L2)<br />Distributed Mutex<br />Token Bucket Limiting | • Cache-Aside with jittered TTL and Redisson mutex locks to eliminate Cache Stampede.<br />• Caffeine L1 + Redis L2 sync via Pub/Sub; Bucket4j edge rate limiting (HTTP 429). | • Slashed read latency from 45ms to < 2ms (L2) and < 0.15ms (L1).<br />• Achieved > 85% DB offload ratio.<br />• Throttled 10,000+ req/s bursts with zero degradation. |
-| **Observability & Distributed Tracing** | `OpenTelemetry SDK`<br />`Prometheus / Grafana`<br />`Micrometer` | RED & USE Metrics<br />W3C Context Propagation<br />Log-to-Metric Correlation | • Injected W3C traceparent across gateway and services mapped to Logback MDC.<br />• 1-click Grafana drill-down from spikes to traces; Micrometer pool telemetry. | • Cut incident MTTR from hours to < 5 minutes.<br />• Constrained telemetry CPU overhead to < 2.5%.<br />• Zero-latency alerts on P99 > 250ms or error > 1%. |
-| **Resilient Microservices & Fault Tolerance** | `Spring Cloud Gateway`<br />`Netflix Eureka`<br />`Resilience4j` | Circuit Breaker Pattern<br />Bulkhead Partitioning<br />Reactive Ingress Routing | • Non-blocking Netty routing in Spring Cloud Gateway with Eureka load balancing.<br />• Resilience4j circuit breakers (50% threshold) and semaphore bulkheads for fault isolation. | • Zero cascading outages during partial downstream degradation.<br />• 100% core checkout uptime via graceful fallbacks.<br />• Maintained 99.95% HA under chaos fault injection. |
+| **Concurrency Models & Virtual Threads** | `Java 21 LTS`<br />`Project Loom`<br />`StructuredTaskScope` | Thread-per-Request<br />Structured Concurrency<br />Work-Stealing | • User-mode Virtual Threads unmount on blocking I/O; ReentrantLock avoids carrier pinning.<br />• StructuredTaskScope orchestrates fail-fast concurrency without thread leaks. | • **`50,000+ req/s`** sustained throughput on 4 vCPU / 8 GB.<br />• **`RAM 1MB → ~1KB`** per thread (>95% memory savings).<br />• **`Sub-10ms P99`** latency with zero thread starvation. |
+| **Distributed Caching & High Throughput** | `Redis 7 Cluster`<br />`Redisson / Caffeine`<br />`Bucket4j` | Multi-Tier Cache (L1/L2)<br />Distributed Mutex<br />Token Bucket Limiting | • Cache-Aside with jittered TTL and Redisson mutex locks to eliminate Cache Stampede.<br />• Caffeine L1 + Redis L2 sync via Pub/Sub; Bucket4j edge rate limiting (HTTP 429). | • **`Sub-2ms Latency`** (L2) and **`< 0.15ms`** (L1) read speed.<br />• **`> 85% DB Offload`** ratio under high concurrent load.<br />• **`10,000+ req/s`** burst throttling with zero degradation. |
+| **Observability & Distributed Tracing** | `OpenTelemetry SDK`<br />`Prometheus / Grafana`<br />`Micrometer` | RED & USE Metrics<br />W3C Context Propagation<br />Log-to-Metric Correlation | • Injected W3C traceparent across gateway and services mapped to Logback MDC.<br />• 1-click Grafana drill-down from spikes to traces; Micrometer pool telemetry. | • **`MTTR < 5 min`** (reduced from multi-hour incident triage).<br />• **`< 2.5% CPU`** telemetry instrumentation overhead.<br />• **`P99 > 250ms`** & error > 1% instant latency alerts. |
+| **Resilient Microservices & Fault Tolerance** | `Spring Cloud Gateway`<br />`Netflix Eureka`<br />`Resilience4j` | Circuit Breaker Pattern<br />Bulkhead Partitioning<br />Reactive Ingress Routing | • Non-blocking Netty routing in Spring Cloud Gateway with Eureka load balancing.<br />• Resilience4j circuit breakers (50% threshold) and semaphore bulkheads for fault isolation. | • **`99.95% HA`** maintained under chaos fault injection.<br />• **`100% Checkout Uptime`** via graceful fallbacks.<br />• **`Zero Cascading Outages`** across downstream tiers. |
 
 ---
 
 ## Featured Engineering Projects
 
-| Project & Domain | Architectural Highlights & System Innovations | Quantified Impact & Metrics | Core Tech Stack |
-| :--- | :--- | :--- | :--- |
-| **[Booking Hub Platform](https://github.com/tranvanmanh9325/Booking-Hub-Backend)**<br /><sub>[Frontend Repo](https://github.com/tranvanmanh9325/Booking-Hub-Frontend)</sub><br />`Fullstack Reservation` | • Architected Clean Architecture backend with OAuth2/JWT auth and atomic transactional booking flows. | • Sustained **5,000+** concurrent req/s at **< 45ms** P95 latency with **85%** database offload. | `Java 21`<br />`Spring Boot 3`<br />`PostgreSQL`<br />`Redis`<br />`Next.js 14` |
-| **[Household Registration Management System](https://github.com/vuloi05/Household-Registration-Management-System)**<br />`Demographic Records` | • Engineered demographic record platform with role-based access control (RBAC) and civic audit trails. | • Optimized relational indexing for **10,000+** records, delivering sub-100ms lookup and **70%** paperless efficiency. | `TypeScript`<br />`React`<br />`Node.js`<br />`PostgreSQL`<br />`REST API` |
-| **[Linux Server Telemetry](https://github.com/tranvanmanh9325/quan_ly_server)**<br />`Infrastructure Ops & Telemetry` | • Built agentless Linux telemetry daemon collecting real-time CPU, RAM, and container metrics via secure SSH. | • Maintained **< 1.5%** CPU overhead, **< 25MB** RAM footprint, and **sub-second** telemetry refresh across hosts. | `Python`<br />`Linux / SSH`<br />`Paramiko`<br />`Docker Compose`<br />`FastAPI` |
-| **[Hao Thanh Transport Management](https://github.com/tranvanmanh9325/nha_xe_hao_thanh)**<br />`Transit & Fleet Booking` | • Developed transit booking platform with interactive seat maps and automated route scheduling algorithms. | • Eliminated ticket race conditions via Redis distributed locks, achieving **zero duplicate bookings** across 2,000+ seats. | `JavaScript`<br />`React`<br />`React Native`<br />`Spring Boot`<br />`Redis` |
-| **[Task & Productivity Tracker](https://github.com/tranvanmanh9325/todolist)**<br />`Workflow Systems` | • Designed responsive task tracker featuring priority tagging, category filtering, and offline-first state persistence. | • Delivered **instant (< 5ms)** state updates and smooth 60 FPS interactions with zero session data loss. | `JavaScript`<br />`React`<br />`HTML5 / CSS3`<br />`LocalStorage`<br />`REST API` |
+<table width="100%">
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/tranvanmanh9325/Booking-Hub-Backend" target="_blank" rel="noreferrer"><img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=Booking-Hub-Backend&theme=tokyonight&show_owner=true" width="100%" alt="Booking-Hub-Backend" /></a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/tranvanmanh9325/Booking-Hub-Frontend" target="_blank" rel="noreferrer"><img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=Booking-Hub-Frontend&theme=tokyonight&show_owner=true" width="100%" alt="Booking-Hub-Frontend" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/vuloi05/Household-Registration-Management-System" target="_blank" rel="noreferrer"><img src="https://github-stats-extended.vercel.app/api/pin/?username=vuloi05&repo=Household-Registration-Management-System&theme=tokyonight&show_owner=true" width="100%" alt="Household-Registration-Management-System" /></a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/tranvanmanh9325/quan_ly_server" target="_blank" rel="noreferrer"><img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=quan_ly_server&theme=tokyonight&show_owner=true" width="100%" alt="quan_ly_server" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/tranvanmanh9325/nha_xe_hao_thanh" target="_blank" rel="noreferrer"><img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=nha_xe_hao_thanh&theme=tokyonight&show_owner=true" width="100%" alt="nha_xe_hao_thanh" /></a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/tranvanmanh9325/todolist" target="_blank" rel="noreferrer"><img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=todolist&theme=tokyonight&show_owner=true" width="100%" alt="todolist" /></a>
+    </td>
+  </tr>
+</table>
 
 ---
 
