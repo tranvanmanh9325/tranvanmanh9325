@@ -37,13 +37,13 @@
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=tranvanmanh9325&theme=tokyonight&show_icons=true&hide_border=true" />
         <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=tranvanmanh9325&theme=default&show_icons=true&hide_border=true" />
-        <img src="https://github-stats-extended.vercel.app/api?username=tranvanmanh9325&theme=tokyonight&show_icons=true&hide_border=true" alt="GitHub Stats" title="GitHub Overall Statistics" width="100%" />
+        <img src="https://github-stats-extended.vercel.app/api?username=tranvanmanh9325&theme=default&show_icons=true&hide_border=true" alt="GitHub Stats" title="GitHub Overall Statistics" width="100%" />
       </picture>
       <br />
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=tranvanmanh9325&theme=tokyonight&hide_border=true" />
         <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=tranvanmanh9325&theme=clean&hide_border=true" />
-        <img src="https://streak-stats.demolab.com/?user=tranvanmanh9325&theme=tokyonight&hide_border=true" alt="GitHub Streak" title="GitHub Contribution Streak" width="100%" />
+        <img src="https://streak-stats.demolab.com/?user=tranvanmanh9325&theme=clean&hide_border=true" alt="GitHub Streak" title="GitHub Contribution Streak" width="100%" />
       </picture>
     </td>
   </tr>
@@ -57,7 +57,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-trophies.vercel.app/?username=tranvanmanh9325&theme=onedark&no-frame=false&no-bg=false&margin-w=4" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-trophies.vercel.app/?username=tranvanmanh9325&theme=flat&no-frame=false&no-bg=false&margin-w=4" />
-    <img src="https://github-trophies.vercel.app/?username=tranvanmanh9325&theme=onedark&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies" title="GitHub Achievements &amp; Trophies" />
+    <img src="https://github-trophies.vercel.app/?username=tranvanmanh9325&theme=flat&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies" title="GitHub Achievements &amp; Trophies" />
   </picture>
 </div>
 
@@ -133,26 +133,62 @@
 <table width="100%">
   <tr>
     <td width="50%">
-      <a href="https://github.com/tranvanmanh9325/Booking-Hub-Backend" target="_blank" rel="noreferrer"><img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=Booking-Hub-Backend&theme=tokyonight&show_owner=true" width="100%" alt="Booking-Hub-Backend" /></a>
+      <a href="https://github.com/tranvanmanh9325/Booking-Hub-Backend" target="_blank" rel="noreferrer">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=Booking-Hub-Backend&theme=tokyonight&show_owner=true" />
+          <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=Booking-Hub-Backend&theme=default&show_owner=true" />
+          <img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=Booking-Hub-Backend&theme=default&show_owner=true" width="100%" alt="Booking-Hub-Backend" />
+        </picture>
+      </a>
     </td>
     <td width="50%">
-      <a href="https://github.com/tranvanmanh9325/Booking-Hub-Frontend" target="_blank" rel="noreferrer"><img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=Booking-Hub-Frontend&theme=tokyonight&show_owner=true" width="100%" alt="Booking-Hub-Frontend" /></a>
+      <a href="https://github.com/tranvanmanh9325/Booking-Hub-Frontend" target="_blank" rel="noreferrer">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=Booking-Hub-Frontend&theme=tokyonight&show_owner=true" />
+          <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=Booking-Hub-Frontend&theme=default&show_owner=true" />
+          <img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=Booking-Hub-Frontend&theme=default&show_owner=true" width="100%" alt="Booking-Hub-Frontend" />
+        </picture>
+      </a>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <a href="https://github.com/vuloi05/Household-Registration-Management-System" target="_blank" rel="noreferrer"><img src="https://github-stats-extended.vercel.app/api/pin/?username=vuloi05&repo=Household-Registration-Management-System&theme=tokyonight&show_owner=true" width="100%" alt="Household-Registration-Management-System" /></a>
+      <a href="https://github.com/vuloi05/Household-Registration-Management-System" target="_blank" rel="noreferrer">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=vuloi05&repo=Household-Registration-Management-System&theme=tokyonight&show_owner=true" />
+          <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=vuloi05&repo=Household-Registration-Management-System&theme=default&show_owner=true" />
+          <img src="https://github-stats-extended.vercel.app/api/pin/?username=vuloi05&repo=Household-Registration-Management-System&theme=default&show_owner=true" width="100%" alt="Household-Registration-Management-System" />
+        </picture>
+      </a>
     </td>
     <td width="50%">
-      <a href="https://github.com/tranvanmanh9325/quan_ly_server" target="_blank" rel="noreferrer"><img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=quan_ly_server&theme=tokyonight&show_owner=true" width="100%" alt="quan_ly_server" /></a>
+      <a href="https://github.com/tranvanmanh9325/quan_ly_server" target="_blank" rel="noreferrer">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=quan_ly_server&theme=tokyonight&show_owner=true" />
+          <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=quan_ly_server&theme=default&show_owner=true" />
+          <img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=quan_ly_server&theme=default&show_owner=true" width="100%" alt="quan_ly_server" />
+        </picture>
+      </a>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <a href="https://github.com/tranvanmanh9325/nha_xe_hao_thanh" target="_blank" rel="noreferrer"><img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=nha_xe_hao_thanh&theme=tokyonight&show_owner=true" width="100%" alt="nha_xe_hao_thanh" /></a>
+      <a href="https://github.com/tranvanmanh9325/nha_xe_hao_thanh" target="_blank" rel="noreferrer">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=nha_xe_hao_thanh&theme=tokyonight&show_owner=true" />
+          <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=nha_xe_hao_thanh&theme=default&show_owner=true" />
+          <img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=nha_xe_hao_thanh&theme=default&show_owner=true" width="100%" alt="nha_xe_hao_thanh" />
+        </picture>
+      </a>
     </td>
     <td width="50%">
-      <a href="https://github.com/tranvanmanh9325/todolist" target="_blank" rel="noreferrer"><img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=todolist&theme=tokyonight&show_owner=true" width="100%" alt="todolist" /></a>
+      <a href="https://github.com/tranvanmanh9325/todolist" target="_blank" rel="noreferrer">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=todolist&theme=tokyonight&show_owner=true" />
+          <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=todolist&theme=default&show_owner=true" />
+          <img src="https://github-stats-extended.vercel.app/api/pin/?username=tranvanmanh9325&repo=todolist&theme=default&show_owner=true" width="100%" alt="todolist" />
+        </picture>
+      </a>
     </td>
   </tr>
 </table>
@@ -171,35 +207,13 @@
 
 <br />
 
-<table width="100%">
-  <tr>
-    <td width="50%" align="center" valign="middle">
-      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&langs_count=8&theme=default&hide_border=true" alt="Top Languages" title="Top Programming Languages" width="100%" />
-    </td>
-    <td width="50%" align="center" valign="middle">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tranvanmanh9325&theme=github&utcOffset=7" alt="Productive Time" title="Productive Commit Hours (UTC+7)" width="100%" />
-    </td>
-  </tr>
-</table>
-
-<br />
-
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tranvanmanh9325&theme=github_dark" alt="Profile Details" title="GitHub Profile Details Summary" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&langs_count=8&theme=default&hide_border=true" />
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&langs_count=8&theme=default&hide_border=true" alt="Top Languages" title="Top Programming Languages" />
+  </picture>
 </div>
-
-<br />
-
-<table width="100%">
-  <tr>
-    <td width="50%" align="center" valign="middle">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tranvanmanh9325&theme=github_dark" alt="Repositories per Language" title="Repositories per Language Breakdown" width="100%" />
-    </td>
-    <td width="50%" align="center" valign="middle">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tranvanmanh9325&theme=github_dark" alt="Profile Stats" title="GitHub Profile Overall Statistics" width="100%" />
-    </td>
-  </tr>
-</table>
 
 <br />
 
