@@ -55,9 +55,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophies.vercel.app/?username=tranvanmanh9325&theme=tokyonight&column=3" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophies.vercel.app/?username=tranvanmanh9325&theme=nord&column=3" />
-    <img src="https://github-profile-trophies.vercel.app/?username=tranvanmanh9325&theme=nord&column=3" alt="GitHub Trophies" title="GitHub Achievements &amp; Trophies" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-trophies.vercel.app/?username=tranvanmanh9325&theme=onedark&no-frame=false&no-bg=false&margin-w=4" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-trophies.vercel.app/?username=tranvanmanh9325&theme=flat&no-frame=false&no-bg=false&margin-w=4" />
+    <img src="https://github-trophies.vercel.app/?username=tranvanmanh9325&theme=onedark&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies" title="GitHub Achievements &amp; Trophies" />
   </picture>
 </div>
 
