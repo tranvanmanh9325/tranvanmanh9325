@@ -162,9 +162,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-graph-hud-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/activity-graph-hud-light.svg" />
-    <img src="./assets/activity-graph-hud-dark.svg" alt="Activity Telemetry HUD" width="100%" height="48" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/isometric-skyline-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/isometric-skyline-light.svg" />
+    <img src="./assets/isometric-skyline-dark.svg" alt="Isometric 3D Contribution Skyline" width="100%" height="220" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-activity-graph.vercel.app/graph?username=tranvanmanh9325&amp;theme=tokyo-night&amp;custom_title=Contribution+Activity+Graph" />
@@ -177,9 +177,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/top-langs-animated-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/top-langs-animated-light.svg" />
-    <img src="./assets/top-langs-animated-light.svg" width="300" height="190" alt="Top Languages" title="Top Programming Languages" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dashboard-3d-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/stats-dashboard-3d-light.svg" />
+    <img src="./assets/stats-dashboard-3d-light.svg" width="700" height="200" alt="3D Stats Dashboard" title="3D Engineering Analytics Dashboard" />
   </picture>
 </div>
 
