@@ -155,10 +155,21 @@
 ## GitHub Analytics & Performance
 
 <div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=16&amp;duration=2500&amp;pause=1000&amp;color=2563EB&amp;center=true&amp;vCenter=true&amp;width=680&amp;height=40&amp;lines=Analytics%3A+1%2C500%2B+Lifetime+Contributions+%E2%80%A2+1%2C300%2B+Annual+Commits;Code+Delivery%3A+73%2B+Pull+Requests+Merged+%E2%80%A2+Active+Code+Reviews;Polyglot+Spectrum%3A+Python+%E2%80%A2+Java+%E2%80%A2+TypeScript+%E2%80%A2+JavaScript+%E2%80%A2+C;Engineering+Velocity%3A+High-Throughput+%26+Resilient+Backend+Architectures" alt="GitHub Analytics &amp; Performance Highlights" />
+</div>
+
+<br />
+
+<div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-activity-graph.vercel.app/graph?username=tranvanmanh9325&theme=tokyo-night&custom_title=Contribution+Activity+Graph" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-activity-graph.vercel.app/graph?username=tranvanmanh9325&theme=github-light&custom_title=Contribution+Activity+Graph" />
-    <img src="https://github-activity-graph.vercel.app/graph?username=tranvanmanh9325&theme=tokyo-night&custom_title=Contribution+Activity+Graph" alt="Contribution Activity Graph" title="GitHub Contribution Activity Graph" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-graph-hud-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/activity-graph-hud-light.svg" />
+    <img src="./assets/activity-graph-hud-dark.svg" alt="Activity Telemetry HUD" width="100%" height="48" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-activity-graph.vercel.app/graph?username=tranvanmanh9325&amp;theme=tokyo-night&amp;custom_title=Contribution+Activity+Graph" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-activity-graph.vercel.app/graph?username=tranvanmanh9325&amp;theme=github-light&amp;custom_title=Contribution+Activity+Graph" />
+    <img src="https://github-activity-graph.vercel.app/graph?username=tranvanmanh9325&amp;theme=tokyo-night&amp;custom_title=Contribution+Activity+Graph" alt="Contribution Activity Graph" title="GitHub Contribution Activity Graph" width="100%" />
   </picture>
 </div>
 
@@ -166,9 +177,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&langs_count=8&theme=default&hide_border=true" />
-    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=tranvanmanh9325&layout=compact&langs_count=8&theme=default&hide_border=true" alt="Top Languages" title="Top Programming Languages" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/top-langs-animated-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/top-langs-animated-light.svg" />
+    <img src="./assets/top-langs-animated-light.svg" width="300" height="190" alt="Top Languages" title="Top Programming Languages" />
   </picture>
 </div>
 
