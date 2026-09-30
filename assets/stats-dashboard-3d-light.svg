@@ -93,23 +93,23 @@
 
     /* Bar Growth Animations */
     .bar-anim-1 {
-      transform-origin: 190px center;
+      transform-origin: 152px center;
       animation: growBar 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.10s backwards;
     }
     .bar-anim-2 {
-      transform-origin: 190px center;
+      transform-origin: 152px center;
       animation: growBar 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.25s backwards;
     }
     .bar-anim-3 {
-      transform-origin: 190px center;
+      transform-origin: 152px center;
       animation: growBar 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.40s backwards;
     }
     .bar-anim-4 {
-      transform-origin: 190px center;
+      transform-origin: 152px center;
       animation: growBar 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.55s backwards;
     }
     .bar-anim-5 {
-      transform-origin: 190px center;
+      transform-origin: 152px center;
       animation: growBar 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.70s backwards;
     }
 

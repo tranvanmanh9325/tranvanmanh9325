@@ -71,8 +71,17 @@
 
     .bar-col {
       transform-box: fill-box;
-      transform-origin: bottom;
+      transform-origin: center bottom;
       animation: growUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+
+    /* Accessibility: Respect Reduced Motion Preference */
+    @media (prefers-reduced-motion: reduce) {
+      .bar-col, .pulse-beacon {
+        animation: none !important;
+        transform: none !important;
+        opacity: 1 !important;
+      }
     }
 
     .iso-plane {
@@ -115,103 +124,103 @@
 
   <!-- 30 Animated 3D Isometric Columns -->
   <g id="skyline-bars">
-    <g class="bar-col col-0" style="transform-origin: 52px 175px; animation-delay: 0.00s;">
+    <g class="bar-col col-0" style="animation-delay: 0.00s;">
       <path class="face-left" d="M 42.50 169.52 L 52 175 L 52 157.75 L 42.50 152.27 Z" fill="#22D3EE" />
       <path class="face-right" d="M 52 175 L 61.50 169.52 L 61.50 152.27 L 52 157.75 Z" fill="#0891B2" />
       <path class="face-top" d="M 52 157.75 L 61.50 152.27 L 52 146.79 L 42.50 152.27 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-1" style="transform-origin: 81.5px 175px; animation-delay: 0.10s;">
+    <g class="bar-col col-1" style="animation-delay: 0.10s;">
       <path class="face-left" d="M 72.00 169.52 L 81.5 175 L 81.5 139.20 L 72.00 133.72 Z" fill="#22D3EE" />
       <path class="face-right" d="M 81.5 175 L 91.00 169.52 L 91.00 133.72 L 81.5 139.20 Z" fill="#0891B2" />
       <path class="face-top" d="M 81.5 139.20 L 91.00 133.72 L 81.5 128.24 L 72.00 133.72 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-2" style="transform-origin: 111px 175px; animation-delay: 0.20s;">
+    <g class="bar-col col-2" style="animation-delay: 0.20s;">
       <path class="face-left" d="M 101.50 169.52 L 111 175 L 111 123.30 L 101.50 117.82 Z" fill="#22D3EE" />
       <path class="face-right" d="M 111 175 L 120.50 169.52 L 120.50 117.82 L 111 123.30 Z" fill="#0891B2" />
       <path class="face-top" d="M 111 123.30 L 120.50 117.82 L 111 112.34 L 101.50 117.82 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-3" style="transform-origin: 140.5px 175px; animation-delay: 0.30s;">
+    <g class="bar-col col-3" style="animation-delay: 0.30s;">
       <path class="face-left" d="M 131.00 169.52 L 140.5 175 L 140.5 149.80 L 131.00 144.32 Z" fill="#22D3EE" />
       <path class="face-right" d="M 140.5 175 L 150.00 169.52 L 150.00 144.32 L 140.5 149.80 Z" fill="#0891B2" />
       <path class="face-top" d="M 140.5 149.80 L 150.00 144.32 L 140.5 138.84 L 131.00 144.32 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-4" style="transform-origin: 170px 175px; animation-delay: 0.40s;">
+    <g class="bar-col col-4" style="animation-delay: 0.40s;">
       <path class="face-left" d="M 160.50 169.52 L 170 175 L 170 112.70 L 160.50 107.22 Z" fill="#22D3EE" />
       <path class="face-right" d="M 170 175 L 179.50 169.52 L 179.50 107.22 L 170 112.70 Z" fill="#0891B2" />
       <path class="face-top" d="M 170 112.70 L 179.50 107.22 L 170 101.74 L 160.50 107.22 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-5" style="transform-origin: 199.5px 175px; animation-delay: 0.50s;">
+    <g class="bar-col col-5" style="animation-delay: 0.50s;">
       <path class="face-left" d="M 190.00 169.52 L 199.5 175 L 199.5 165.70 L 190.00 160.22 Z" fill="#22D3EE" />
       <path class="face-right" d="M 199.5 175 L 209.00 169.52 L 209.00 160.22 L 199.5 165.70 Z" fill="#0891B2" />
       <path class="face-top" d="M 199.5 165.70 L 209.00 160.22 L 199.5 154.74 L 190.00 160.22 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-6" style="transform-origin: 229px 175px; animation-delay: 0.60s;">
+    <g class="bar-col col-6" style="animation-delay: 0.60s;">
       <path class="face-left" d="M 219.50 169.52 L 229 175 L 229 171.00 L 219.50 165.52 Z" fill="#161B22" />
       <path class="face-right" d="M 229 175 L 238.50 169.52 L 238.50 165.52 L 229 171.00 Z" fill="#0D1117" />
       <path class="face-top" d="M 229 171.00 L 238.50 165.52 L 229 160.04 L 219.50 165.52 Z" fill="#21262D" />
       
     </g>
-    <g class="bar-col col-7" style="transform-origin: 258.5px 175px; animation-delay: 0.70s;">
+    <g class="bar-col col-7" style="animation-delay: 0.70s;">
       <path class="face-left" d="M 249.00 169.52 L 258.5 175 L 258.5 152.45 L 249.00 146.97 Z" fill="#22D3EE" />
       <path class="face-right" d="M 258.5 175 L 268.00 169.52 L 268.00 146.97 L 258.5 152.45 Z" fill="#0891B2" />
       <path class="face-top" d="M 258.5 152.45 L 268.00 146.97 L 258.5 141.49 L 249.00 146.97 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-8" style="transform-origin: 288px 175px; animation-delay: 0.80s;">
+    <g class="bar-col col-8" style="animation-delay: 0.80s;">
       <path class="face-left" d="M 278.50 169.52 L 288 175 L 288 131.25 L 278.50 125.77 Z" fill="#22D3EE" />
       <path class="face-right" d="M 288 175 L 297.50 169.52 L 297.50 125.77 L 288 131.25 Z" fill="#0891B2" />
       <path class="face-top" d="M 288 131.25 L 297.50 125.77 L 288 120.29 L 278.50 125.77 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-9" style="transform-origin: 317.5px 175px; animation-delay: 0.90s;">
+    <g class="bar-col col-9" style="animation-delay: 0.90s;">
       <path class="face-left" d="M 308.00 169.52 L 317.5 175 L 317.5 96.80 L 308.00 91.32 Z" fill="#22D3EE" />
       <path class="face-right" d="M 317.5 175 L 327.00 169.52 L 327.00 91.32 L 317.5 96.80 Z" fill="#0891B2" />
       <path class="face-top" d="M 317.5 96.80 L 327.00 91.32 L 317.5 85.84 L 308.00 91.32 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-10" style="transform-origin: 347px 175px; animation-delay: 1.00s;">
+    <g class="bar-col col-10" style="animation-delay: 1.00s;">
       <path class="face-left" d="M 337.50 169.52 L 347 175 L 347 75.60 L 337.50 70.12 Z" fill="#22D3EE" />
       <path class="face-right" d="M 347 175 L 356.50 169.52 L 356.50 70.12 L 347 75.60 Z" fill="#0891B2" />
       <path class="face-top" d="M 347 75.60 L 356.50 70.12 L 347 64.64 L 337.50 70.12 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-11" style="transform-origin: 376.5px 175px; animation-delay: 1.10s;">
+    <g class="bar-col col-11" style="animation-delay: 1.10s;">
       <path class="face-left" d="M 367.00 169.52 L 376.5 175 L 376.5 120.65 L 367.00 115.17 Z" fill="#22D3EE" />
       <path class="face-right" d="M 376.5 175 L 386.00 169.52 L 386.00 115.17 L 376.5 120.65 Z" fill="#0891B2" />
       <path class="face-top" d="M 376.5 120.65 L 386.00 115.17 L 376.5 109.69 L 367.00 115.17 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-12" style="transform-origin: 406px 175px; animation-delay: 1.20s;">
+    <g class="bar-col col-12" style="animation-delay: 1.20s;">
       <path class="face-left" d="M 396.50 169.52 L 406 175 L 406 160.40 L 396.50 154.92 Z" fill="#22D3EE" />
       <path class="face-right" d="M 406 175 L 415.50 169.52 L 415.50 154.92 L 406 160.40 Z" fill="#0891B2" />
       <path class="face-top" d="M 406 160.40 L 415.50 154.92 L 406 149.44 L 396.50 154.92 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-13" style="transform-origin: 435.5px 175px; animation-delay: 1.30s;">
+    <g class="bar-col col-13" style="animation-delay: 1.30s;">
       <path class="face-left" d="M 426.00 169.52 L 435.5 175 L 435.5 168.35 L 426.00 162.87 Z" fill="#22D3EE" />
       <path class="face-right" d="M 435.5 175 L 445.00 169.52 L 445.00 162.87 L 435.5 168.35 Z" fill="#0891B2" />
       <path class="face-top" d="M 435.5 168.35 L 445.00 162.87 L 435.5 157.39 L 426.00 162.87 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-14" style="transform-origin: 465px 175px; animation-delay: 1.40s;">
+    <g class="bar-col col-14" style="animation-delay: 1.40s;">
       <path class="face-left" d="M 455.50 169.52 L 465 175 L 465 141.85 L 455.50 136.37 Z" fill="#22D3EE" />
       <path class="face-right" d="M 465 175 L 474.50 169.52 L 474.50 136.37 L 465 141.85 Z" fill="#0891B2" />
       <path class="face-top" d="M 465 141.85 L 474.50 136.37 L 465 130.89 L 455.50 136.37 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-15" style="transform-origin: 494.5px 175px; animation-delay: 1.50s;">
+    <g class="bar-col col-15" style="animation-delay: 1.50s;">
       <path class="face-left" d="M 485.00 169.52 L 494.5 175 L 494.5 107.40 L 485.00 101.92 Z" fill="#22D3EE" />
       <path class="face-right" d="M 494.5 175 L 504.00 169.52 L 504.00 101.92 L 494.5 107.40 Z" fill="#0891B2" />
       <path class="face-top" d="M 494.5 107.40 L 504.00 101.92 L 494.5 96.44 L 485.00 101.92 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-16" style="transform-origin: 524px 175px; animation-delay: 1.60s;">
+    <g class="bar-col col-16" style="animation-delay: 1.60s;">
       <path class="face-left" d="M 514.50 169.52 L 524 175 L 524 65.00 L 514.50 59.52 Z" fill="#38BDF8" />
       <path class="face-right" d="M 524 175 L 533.50 169.52 L 533.50 59.52 L 524 65.00 Z" fill="#0284C7" />
       <path class="face-top" d="M 524 65.00 L 533.50 59.52 L 524 54.04 L 514.50 59.52 Z" fill="#A5F3FC" />
@@ -223,79 +232,79 @@
       <text x="524" y="44.04" text-anchor="middle" font-size="9" font-weight="700" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">PEAK 40</text>
     
     </g>
-    <g class="bar-col col-17" style="transform-origin: 553.5px 175px; animation-delay: 1.70s;">
+    <g class="bar-col col-17" style="animation-delay: 1.70s;">
       <path class="face-left" d="M 544.00 169.52 L 553.5 175 L 553.5 88.85 L 544.00 83.37 Z" fill="#22D3EE" />
       <path class="face-right" d="M 553.5 175 L 563.00 169.52 L 563.00 83.37 L 553.5 88.85 Z" fill="#0891B2" />
       <path class="face-top" d="M 553.5 88.85 L 563.00 83.37 L 553.5 77.89 L 544.00 83.37 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-18" style="transform-origin: 583px 175px; animation-delay: 1.80s;">
+    <g class="bar-col col-18" style="animation-delay: 1.80s;">
       <path class="face-left" d="M 573.50 169.52 L 583 175 L 583 128.60 L 573.50 123.12 Z" fill="#22D3EE" />
       <path class="face-right" d="M 583 175 L 592.50 169.52 L 592.50 123.12 L 583 128.60 Z" fill="#0891B2" />
       <path class="face-top" d="M 583 128.60 L 592.50 123.12 L 583 117.64 L 573.50 123.12 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-19" style="transform-origin: 612.5px 175px; animation-delay: 1.90s;">
+    <g class="bar-col col-19" style="animation-delay: 1.90s;">
       <path class="face-left" d="M 603.00 169.52 L 612.5 175 L 612.5 155.10 L 603.00 149.62 Z" fill="#22D3EE" />
       <path class="face-right" d="M 612.5 175 L 622.00 169.52 L 622.00 149.62 L 612.5 155.10 Z" fill="#0891B2" />
       <path class="face-top" d="M 612.5 155.10 L 622.00 149.62 L 612.5 144.14 L 603.00 149.62 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-20" style="transform-origin: 642px 175px; animation-delay: 2.00s;">
+    <g class="bar-col col-20" style="animation-delay: 2.00s;">
       <path class="face-left" d="M 632.50 169.52 L 642 175 L 642 171.00 L 632.50 165.52 Z" fill="#161B22" />
       <path class="face-right" d="M 642 175 L 651.50 169.52 L 651.50 165.52 L 642 171.00 Z" fill="#0D1117" />
       <path class="face-top" d="M 642 171.00 L 651.50 165.52 L 642 160.04 L 632.50 165.52 Z" fill="#21262D" />
       
     </g>
-    <g class="bar-col col-21" style="transform-origin: 671.5px 175px; animation-delay: 2.10s;">
+    <g class="bar-col col-21" style="animation-delay: 2.10s;">
       <path class="face-left" d="M 662.00 169.52 L 671.5 175 L 671.5 133.90 L 662.00 128.42 Z" fill="#22D3EE" />
       <path class="face-right" d="M 671.5 175 L 681.00 169.52 L 681.00 128.42 L 671.5 133.90 Z" fill="#0891B2" />
       <path class="face-top" d="M 671.5 133.90 L 681.00 128.42 L 671.5 122.94 L 662.00 128.42 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-22" style="transform-origin: 701px 175px; animation-delay: 2.20s;">
+    <g class="bar-col col-22" style="animation-delay: 2.20s;">
       <path class="face-left" d="M 691.50 169.52 L 701 175 L 701 115.35 L 691.50 109.87 Z" fill="#22D3EE" />
       <path class="face-right" d="M 701 175 L 710.50 169.52 L 710.50 109.87 L 701 115.35 Z" fill="#0891B2" />
       <path class="face-top" d="M 701 115.35 L 710.50 109.87 L 701 104.39 L 691.50 109.87 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-23" style="transform-origin: 730.5px 175px; animation-delay: 2.30s;">
+    <g class="bar-col col-23" style="animation-delay: 2.30s;">
       <path class="face-left" d="M 721.00 169.52 L 730.5 175 L 730.5 99.45 L 721.00 93.97 Z" fill="#22D3EE" />
       <path class="face-right" d="M 730.5 175 L 740.00 169.52 L 740.00 93.97 L 730.5 99.45 Z" fill="#0891B2" />
       <path class="face-top" d="M 730.5 99.45 L 740.00 93.97 L 730.5 88.49 L 721.00 93.97 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-24" style="transform-origin: 760px 175px; animation-delay: 2.40s;">
+    <g class="bar-col col-24" style="animation-delay: 2.40s;">
       <path class="face-left" d="M 750.50 169.52 L 760 175 L 760 118.00 L 750.50 112.52 Z" fill="#22D3EE" />
       <path class="face-right" d="M 760 175 L 769.50 169.52 L 769.50 112.52 L 760 118.00 Z" fill="#0891B2" />
       <path class="face-top" d="M 760 118.00 L 769.50 112.52 L 760 107.04 L 750.50 112.52 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-25" style="transform-origin: 789.5px 175px; animation-delay: 2.50s;">
+    <g class="bar-col col-25" style="animation-delay: 2.50s;">
       <path class="face-left" d="M 780.00 169.52 L 789.5 175 L 789.5 131.25 L 780.00 125.77 Z" fill="#22D3EE" />
       <path class="face-right" d="M 789.5 175 L 799.00 169.52 L 799.00 125.77 L 789.5 131.25 Z" fill="#0891B2" />
       <path class="face-top" d="M 789.5 131.25 L 799.00 125.77 L 789.5 120.29 L 780.00 125.77 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-26" style="transform-origin: 819px 175px; animation-delay: 2.60s;">
+    <g class="bar-col col-26" style="animation-delay: 2.60s;">
       <path class="face-left" d="M 809.50 169.52 L 819 175 L 819 163.05 L 809.50 157.57 Z" fill="#22D3EE" />
       <path class="face-right" d="M 819 175 L 828.50 169.52 L 828.50 157.57 L 819 163.05 Z" fill="#0891B2" />
       <path class="face-top" d="M 819 163.05 L 828.50 157.57 L 819 152.09 L 809.50 157.57 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-27" style="transform-origin: 848.5px 175px; animation-delay: 2.70s;">
+    <g class="bar-col col-27" style="animation-delay: 2.70s;">
       <path class="face-left" d="M 839.00 169.52 L 848.5 175 L 848.5 165.70 L 839.00 160.22 Z" fill="#22D3EE" />
       <path class="face-right" d="M 848.5 175 L 858.00 169.52 L 858.00 160.22 L 848.5 165.70 Z" fill="#0891B2" />
       <path class="face-top" d="M 848.5 165.70 L 858.00 160.22 L 848.5 154.74 L 839.00 160.22 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-28" style="transform-origin: 878px 175px; animation-delay: 2.80s;">
+    <g class="bar-col col-28" style="animation-delay: 2.80s;">
       <path class="face-left" d="M 868.50 169.52 L 878 175 L 878 123.30 L 868.50 117.82 Z" fill="#22D3EE" />
       <path class="face-right" d="M 878 175 L 887.50 169.52 L 887.50 117.82 L 878 123.30 Z" fill="#0891B2" />
       <path class="face-top" d="M 878 123.30 L 887.50 117.82 L 878 112.34 L 868.50 117.82 Z" fill="#67E8F9" />
       
     </g>
-    <g class="bar-col col-29" style="transform-origin: 907.5px 175px; animation-delay: 2.90s;">
+    <g class="bar-col col-29" style="animation-delay: 2.90s;">
       <path class="face-left" d="M 898.00 169.52 L 907.5 175 L 907.5 104.75 L 898.00 99.27 Z" fill="#22D3EE" />
       <path class="face-right" d="M 907.5 175 L 917.00 169.52 L 917.00 99.27 L 907.5 104.75 Z" fill="#0891B2" />
       <path class="face-top" d="M 907.5 104.75 L 917.00 99.27 L 907.5 93.79 L 898.00 99.27 Z" fill="#67E8F9" />
