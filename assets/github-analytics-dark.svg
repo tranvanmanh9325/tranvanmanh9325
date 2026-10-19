@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 425" width="100%" fill="none">
+  <defs>
+    <style>
+      .txt {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+      }
+      .title {
+        font-size: 18px;
+        font-weight: 600;
+        fill: #58a6ff;
+      }
+      .card-title {
+        font-size: 15px;
+        font-weight: 600;
+        fill: #58a6ff;
+      }
+      .metric-label {
+        font-size: 13.5px;
+        fill: #848d97;
+      }
+      .chart-sub {
+        font-size: 11px;
+        fill: #848d97;
+      }
+      .legend-lbl {
+        font-size: 13px;
+        fill: #848d97;
+      }
+      .axis-tick text {
+        font-size: 10px;
+        fill: #848d97;
+      }
+      .axis-line {
+        stroke: #30363d;
+      }
+    </style>
+    <linearGradient id="area-grad-dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3fb950" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0.05" />
+    </linearGradient>
+    <clipPath id="spline-clip-dark">
+      <rect x="-30" y="0" width="410" height="110" />
+    </clipPath>
+  </defs>
+
+  <!-- Top Banner: Profile Summary & D3 Spline Contribution Area Curve -->
+  <g class="txt" transform="translate(0, 0)">
+    <rect x="0.5" y="0.5" width="1049" height="200" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    
+    <!-- User Profile Details -->
+    <text x="30" y="38" class="title">tranvanmanh9325 (Trần Văn Mạnh)</text>
+    
+    <g transform="translate(30, 62)">
+      <!-- Contributions -->
+      <g transform="translate(0, 0)">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="#848d97">
+          <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+        </svg>
+        <text x="25" y="13" class="metric-label">1.78k Contributions on GitHub</text>
+      </g>
+      <!-- Public Repos -->
+      <g transform="translate(0, 28)">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="#848d97">
+          <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z" />
+        </svg>
+        <text x="25" y="13" class="metric-label">21 Public Repos</text>
+      </g>
+      <!-- Account Age -->
+      <g transform="translate(0, 56)">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="#848d97">
+          <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z" />
+        </svg>
+        <text x="25" y="13" class="metric-label">Joined GitHub 5 years ago</text>
+      </g>
+      <!-- Organization / University -->
+      <g transform="translate(0, 84)">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="#848d97">
+          <path fill-rule="evenodd" d="M1.5 14.25c0 .138.112.25.25.25H4v-1.25a.75.75 0 01.75-.75h2.5a.75.75 0 01.75.75v1.25h2.25a.25.25 0 00.25-.25V1.75a.25.25 0 00-.25-.25h-8.5a.25.25 0 00-.25.25v12.5zM1.75 16A1.75 1.75 0 010 14.25V1.75C0 .784.784 0 1.75 0h8.5C11.216 0 12 .784 12 1.75v12.5c0 .085-.006.168-.018.25h2.268a.25.25 0 00.25-.25V8.285a.25.25 0 00-.111-.208l-1.055-.703a.75.75 0 11.832-1.248l1.055.703c.487.325.779.871.779 1.456v5.965A1.75 1.75 0 0114.25 16h-3.5a.75.75 0 01-.197-.026c-.099.017-.2.026-.303.026h-3a.75.75 0 01-.75-.75V14h-1v1.25a.75.75 0 01-.75.75h-3zM3 3.75A.75.75 0 013.75 3h.5a.75.75 0 010 1.5h-.5A.75.75 0 013 3.75zM3.75 6a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM3 9.75A.75.75 0 013.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 013 9.75zM7.75 9a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM7 6.75A.75.75 0 017.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 017 6.75zM7.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5z" />
+        </svg>
+        <text x="25" y="13" class="metric-label">Hanoi University of Science and Technology</text>
+      </g>
+    </g>
+
+    <!-- Right Side: D3 Spline Area Chart -->
+    <text x="965" y="38" text-anchor="end" class="chart-sub">contributions in the last year</text>
+    <g transform="translate(615, 52)">
+      <!-- Spline Area Path & Stroke -->
+      <g clip-path="url(#spline-clip-dark)">
+        <path transform="translate(-30, 0)" fill="url(#area-grad-dark)" d="M0,95.2C10.757990867579908,95.90570127504553,21.51598173515982,96.61140255009107,32.273972602739725,97.6C42.68493150684932,98.55670720958928,53.0958904109589,101,63.50684931506849,101C74.2648401826484,101,85.02283105022832,93.80000000000001,95.78082191780823,93.80000000000001C106.53881278538813,93.80000000000001,117.29680365296804,108.4,128.05479452054794,108.4C137.7716894977169,108.4,147.48858447488584,98.4,157.2054794520548,98.4C167.9634703196347,98.4,178.72146118721463,106.2,189.47945205479454,106.2C199.8904109589041,106.2,210.3013698630137,99.91352018332452,220.71232876712327,97.6C231.4703196347032,95.20936247723132,242.2283105022831,92.19999999999999,252.98630136986304,92.19999999999999C263.3972602739726,92.19999999999999,273.8082191780822,98.8,284.2191780821918,98.8C294.9771689497717,98.8,305.7351598173516,2.9999999999999947,316.4931506849315,2.9999999999999947C327.2511415525114,2.9999999999999947,338.0091324200913,37.845245901639345,348.7671232876712,49.2C359.1780821917808,60.18847170809097,369.5890410958904,65.49423585404548,380,70.8L380,110C369.5890410958904,110,359.1780821917808,110,348.7671232876712,110C338.0091324200913,110,327.2511415525114,110,316.4931506849315,110C305.7351598173516,110,294.9771689497717,110,284.2191780821918,110C273.8082191780822,110,263.3972602739726,110,252.98630136986304,110C242.2283105022831,110,231.4703196347032,110,220.71232876712327,110C210.3013698630137,110,199.8904109589041,110,189.47945205479454,110C178.72146118721463,110,167.9634703196347,110,157.2054794520548,110C147.48858447488584,110,137.7716894977169,110,128.05479452054794,110C117.29680365296804,110,106.53881278538813,110,95.78082191780823,110C85.02283105022832,110,74.2648401826484,110,63.50684931506849,110C53.0958904109589,110,42.68493150684932,110,32.273972602739725,110C21.51598173515982,110,10.757990867579908,110,0,110Z" />
+        <path transform="translate(-30, 0)" stroke="#3fb950" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" d="M0,95.2C10.757990867579908,95.90570127504553,21.51598173515982,96.61140255009107,32.273972602739725,97.6C42.68493150684932,98.55670720958928,53.0958904109589,101,63.50684931506849,101C74.2648401826484,101,85.02283105022832,93.80000000000001,95.78082191780823,93.80000000000001C106.53881278538813,93.80000000000001,117.29680365296804,108.4,128.05479452054794,108.4C137.7716894977169,108.4,147.48858447488584,98.4,157.2054794520548,98.4C167.9634703196347,98.4,178.72146118721463,106.2,189.47945205479454,106.2C199.8904109589041,106.2,210.3013698630137,99.91352018332452,220.71232876712327,97.6C231.4703196347032,95.20936247723132,242.2283105022831,92.19999999999999,252.98630136986304,92.19999999999999C263.3972602739726,92.19999999999999,273.8082191780822,98.8,284.2191780821918,98.8C294.9771689497717,98.8,305.7351598173516,2.9999999999999947,316.4931506849315,2.9999999999999947C327.2511415525114,2.9999999999999947,338.0091324200913,37.845245901639345,348.7671232876712,49.2C359.1780821917808,60.18847170809097,369.5890410958904,65.49423585404548,380,70.8" />
+      </g>
+      <!-- X-Axis -->
+      <g transform="translate(-30, 110)" class="axis-tick" text-anchor="middle">
+        <path class="axis-line" d="M0.5,6V0.5H380.5V6" fill="none" />
+        <g transform="translate(0.5, 0)"><line stroke="#30363d" y2="6" /><text y="9" dy="0.71em">25/10</text></g>
+        <g transform="translate(64.01, 0)"><line stroke="#30363d" y2="6" /><text y="9" dy="0.71em">25/12</text></g>
+        <g transform="translate(128.55, 0)"><line stroke="#30363d" y2="6" /><text y="9" dy="0.71em">26/02</text></g>
+        <g transform="translate(189.98, 0)"><line stroke="#30363d" y2="6" /><text y="9" dy="0.71em">26/04</text></g>
+        <g transform="translate(253.49, 0)"><line stroke="#30363d" y2="6" /><text y="9" dy="0.71em">26/06</text></g>
+        <g transform="translate(316.99, 0)"><line stroke="#30363d" y2="6" /><text y="9" dy="0.71em">26/08</text></g>
+        <g transform="translate(380.5, 0)"><line stroke="#30363d" y2="6" /><text y="9" dy="0.71em">26/10</text></g>
+      </g>
+      <!-- Y-Axis -->
+      <g transform="translate(350, 0)" class="axis-tick" text-anchor="start">
+        <path class="axis-line" d="M6,110.5H0.5V0.5H6" fill="none" />
+        <g transform="translate(0, 110.5)"><line stroke="#30363d" x2="6" /><text x="9" dy="0.32em">0</text></g>
+        <g transform="translate(0, 100.5)"><line stroke="#30363d" x2="6" /><text x="9" dy="0.32em">50</text></g>
+        <g transform="translate(0, 90.5)"><line stroke="#30363d" x2="6" /><text x="9" dy="0.32em">100</text></g>
+        <g transform="translate(0, 80.5)"><line stroke="#30363d" x2="6" /><text x="9" dy="0.32em">150</text></g>
+        <g transform="translate(0, 70.5)"><line stroke="#30363d" x2="6" /><text x="9" dy="0.32em">200</text></g>
+        <g transform="translate(0, 60.5)"><line stroke="#30363d" x2="6" /><text x="9" dy="0.32em">250</text></g>
+        <g transform="translate(0, 50.5)"><line stroke="#30363d" x2="6" /><text x="9" dy="0.32em">300</text></g>
+        <g transform="translate(0, 40.5)"><line stroke="#30363d" x2="6" /><text x="9" dy="0.32em">350</text></g>
+        <g transform="translate(0, 30.5)"><line stroke="#30363d" x2="6" /><text x="9" dy="0.32em">400</text></g>
+        <g transform="translate(0, 20.5)"><line stroke="#30363d" x2="6" /><text x="9" dy="0.32em">450</text></g>
+        <g transform="translate(0, 10.5)"><line stroke="#30363d" x2="6" /><text x="9" dy="0.32em">500</text></g>
+        <g transform="translate(0, 0.5)"><line stroke="#30363d" x2="6" /><text x="9" dy="0.32em">550</text></g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Row: 3 Data Visualization Cards -->
+  <!-- Card 1: Top Languages by Repo (Donut Chart, Java #1) -->
+  <g class="txt" transform="translate(0, 215)">
+    <rect x="0.5" y="0.5" width="340" height="200" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="25" y="36" class="card-title">Top Languages by Repo</text>
+    
+    <!-- Legend -->
+    <g transform="translate(25, 45)">
+      <rect y="12" width="12" height="12" rx="3" fill="#b07219" />
+      <text x="20" y="23" class="legend-lbl">Java</text>
+      
+      <rect y="37" width="12" height="12" rx="3" fill="#3178c6" />
+      <text x="20" y="48" class="legend-lbl">TypeScript</text>
+      
+      <rect y="62" width="12" height="12" rx="3" fill="#f1e05a" />
+      <text x="20" y="73" class="legend-lbl">JavaScript</text>
+      
+      <rect y="87" width="12" height="12" rx="3" fill="#3572A5" />
+      <text x="20" y="98" class="legend-lbl">Python</text>
+    </g>
+
+    <!-- D3 Donut Chart -->
+    <g transform="translate(230, 115)">
+      <path d="M3.67394039744206e-15,-60A60,60,0,0,1,56.10097456112489,21.27629322255213L32.72556849398952,12.411171046488743A35,35,0,0,0,2.1431318985078682e-15,-35Z" fill="#b07219" stroke="#161b22" stroke-width="2" />
+      <path d="M56.10097456112489,21.27629322255213A60,60,0,0,1,-14.35893985725345,58.25650904556313L-8.376048250064512,33.98296360991183A35,35,0,0,0,32.72556849398952,12.411171046488743Z" fill="#3178c6" stroke="#161b22" stroke-width="2" />
+      <path d="M-14.35893985725345,58.25650904556313A60,60,0,0,1,-59.56253244588324,-7.232200815319343L-34.74481059343189,-4.2187838089362835A35,35,0,0,0,-8.376048250064512,33.98296360991183Z" fill="#f1e05a" stroke="#161b22" stroke-width="2" />
+      <path d="M-59.56253244588324,-7.232200815319343A60,60,0,0,1,-6.431252637433369e-14,-60L-3.7515640385027985e-14,-35A35,35,0,0,0,-34.74481059343189,-4.2187838089362835Z" fill="#3572A5" stroke="#161b22" stroke-width="2" />
+    </g>
+  </g>
+
+  <!-- Card 2: Top Languages by Commit (Donut Chart) -->
+  <g class="txt" transform="translate(355, 215)">
+    <rect x="0.5" y="0.5" width="340" height="200" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="25" y="36" class="card-title">Top Languages by Commit</text>
+    
+    <!-- Legend -->
+    <g transform="translate(25, 45)">
+      <rect y="7" width="12" height="12" rx="3" fill="#3572A5" />
+      <text x="20" y="18" class="legend-lbl">Python</text>
+      
+      <rect y="29" width="12" height="12" rx="3" fill="#3178c6" />
+      <text x="20" y="40" class="legend-lbl">TypeScript</text>
+      
+      <rect y="51" width="12" height="12" rx="3" fill="#f1e05a" />
+      <text x="20" y="62" class="legend-lbl">JavaScript</text>
+      
+      <rect y="73" width="12" height="12" rx="3" fill="#b07219" />
+      <text x="20" y="84" class="legend-lbl">Java</text>
+      
+      <rect y="95" width="12" height="12" rx="3" fill="#336790" />
+      <text x="20" y="106" class="legend-lbl">PLpgSQL</text>
+    </g>
+
+    <!-- D3 Donut Chart -->
+    <g transform="translate(230, 115)">
+      <path d="M3.67394039744206e-15,-60A60,60,0,1,1,-33.97532095797209,49.45379222873391L-19.81893722548372,28.848045466761448A35,35,0,1,0,2.1431318985078682e-15,-35Z" fill="#3572A5" stroke="#161b22" stroke-width="2" />
+      <path d="M-33.97532095797209,49.45379222873391A60,60,0,0,1,-58.28791384679153,-14.230920539058864L-34.001283077295064,-8.301370314451004A35,35,0,0,0,-19.81893722548372,28.848045466761448Z" fill="#3178c6" stroke="#161b22" stroke-width="2" />
+      <path d="M-58.28791384679153,-14.230920539058864A60,60,0,0,1,-30.64453807518326,-51.584031309685784L-17.8759805438569,-30.090684930650042A35,35,0,0,0,-34.001283077295064,-8.301370314451004Z" fill="#f1e05a" stroke="#161b22" stroke-width="2" />
+      <path d="M-30.64453807518326,-51.584031309685784A60,60,0,0,1,-13.84645294898404,-58.38043970998823L-8.077097553574024,-34.05525649749313A35,35,0,0,0,-17.8759805438569,-30.090684930650042Z" fill="#b07219" stroke="#161b22" stroke-width="2" />
+      <path d="M-13.84645294898404,-58.38043970998823A60,60,0,0,1,-1.1021821192326178e-14,-60L-6.429395695523604e-15,-35A35,35,0,0,0,-8.077097553574024,-34.05525649749313Z" fill="#336790" stroke="#161b22" stroke-width="2" />
+    </g>
+  </g>
+
+  <!-- Card 3: Commits (UTC +07:00) 24h Bar Chart -->
+  <g class="txt" transform="translate(710, 215)">
+    <rect x="0.5" y="0.5" width="339.5" height="200" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="25" y="36" class="card-title">Commits (UTC +07:00)</text>
+    <text x="315" y="36" text-anchor="end" class="chart-sub">per day hour</text>
+    
+    <g transform="translate(32, 52)">
+      <!-- X-Axis -->
+      <g transform="translate(0, 100)" class="axis-tick" text-anchor="middle">
+        <path class="axis-line" d="M-1.16,0.5H280.5" fill="none" />
+        <g transform="translate(6.39, 0)"><line stroke="#30363d" y2="6" /><text y="9" dy="0.71em">0</text></g>
+        <g transform="translate(76.10, 0)"><line stroke="#30363d" y2="6" /><text y="9" dy="0.71em">6</text></g>
+        <g transform="translate(145.81, 0)"><line stroke="#30363d" y2="6" /><text y="9" dy="0.71em">12</text></g>
+        <g transform="translate(215.52, 0)"><line stroke="#30363d" y2="6" /><text y="9" dy="0.71em">18</text></g>
+        <g transform="translate(273.61, 0)"><line stroke="#30363d" y2="6" /><text y="9" dy="0.71em">23</text></g>
+      </g>
+      <!-- Y-Axis -->
+      <g transform="translate(-1.16, 0)" class="axis-tick" text-anchor="end">
+        <path class="axis-line" d="M-6,100.5H0.5V0.5H-6" fill="none" />
+        <g transform="translate(0, 100.5)"><line stroke="#30363d" x2="-6" /><text x="-9" dy="0.32em">0</text></g>
+        <g transform="translate(0, 75.5)"><line stroke="#30363d" x2="-6" /><text x="-9" dy="0.32em">10</text></g>
+        <g transform="translate(0, 50.5)"><line stroke="#30363d" x2="-6" /><text x="-9" dy="0.32em">20</text></g>
+        <g transform="translate(0, 25.5)"><line stroke="#30363d" x2="-6" /><text x="-9" dy="0.32em">30</text></g>
+        <g transform="translate(0, 0.5)"><line stroke="#30363d" x2="-6" /><text x="-9" dy="0.32em">40</text></g>
+      </g>
+      
+      <!-- 24 Hourly Commit Bars -->
+      <g fill="#58a6ff">
+        <rect x="1.16" y="32.5" width="10.46" height="67.5" rx="1" />
+        <rect x="12.78" y="45.0" width="10.46" height="55.0" rx="1" />
+        <rect x="24.40" y="67.5" width="10.46" height="32.5" rx="1" />
+        <rect x="36.02" y="72.5" width="10.46" height="27.5" rx="1" />
+        <rect x="47.63" y="75.0" width="10.46" height="25.0" rx="1" />
+        <rect x="59.25" y="80.0" width="10.46" height="20.0" rx="1" />
+        <rect x="70.87" y="87.5" width="10.46" height="12.5" rx="1" />
+        <rect x="82.49" y="67.5" width="10.46" height="32.5" rx="1" />
+        <rect x="94.11" y="52.5" width="10.46" height="47.5" rx="1" />
+        <rect x="105.73" y="60.0" width="10.46" height="40.0" rx="1" />
+        <rect x="117.34" y="70.0" width="10.46" height="30.0" rx="1" />
+        <rect x="128.96" y="45.0" width="10.46" height="55.0" rx="1" />
+        <rect x="140.58" y="7.5" width="10.46" height="92.5" rx="1" />
+        <rect x="152.20" y="55.0" width="10.46" height="45.0" rx="1" />
+        <rect x="163.82" y="52.5" width="10.46" height="47.5" rx="1" />
+        <rect x="175.44" y="35.0" width="10.46" height="65.0" rx="1" />
+        <rect x="187.05" y="50.0" width="10.46" height="50.0" rx="1" />
+        <rect x="198.67" y="65.0" width="10.46" height="35.0" rx="1" />
+        <rect x="210.29" y="22.5" width="10.46" height="77.5" rx="1" />
+        <rect x="221.91" y="37.5" width="10.46" height="62.5" rx="1" />
+        <rect x="233.53" y="25.0" width="10.46" height="75.0" rx="1" />
+        <rect x="245.15" y="40.0" width="10.46" height="60.0" rx="1" />
+        <rect x="256.76" y="57.5" width="10.46" height="42.5" rx="1" />
+        <rect x="268.38" y="27.5" width="10.46" height="72.5" rx="1" />
+      </g>
+    </g>
+  </g>
+</svg>
