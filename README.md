@@ -17,7 +17,7 @@
 <table>
   <tr>
     <td width="58%" valign="top">
-      <h3>Staff Engineering Profile</h3>
+      <h3>Staff Engineering Intern Profile</h3>
       <p>
         <strong>Senior / Staff-Track Backend &amp; Distributed Systems Engineer Intern</strong> graduated from <strong>Hanoi University of Science and Technology (HUST)</strong>. Specialized in architecting low-latency enterprise backends, resilient microservices, and distributed data infrastructures.
       </p>
