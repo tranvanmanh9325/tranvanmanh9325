@@ -1,4 +1,4 @@
-# Tran Van Manh | Staff-Track Distributed Systems Engineer
+# Tran Van Manh | Staff-Track Distributed Systems Engineer Intern
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,18,24&height=220&section=header&text=Tran%20Van%20Manh&fontSize=50&fontColor=ffffff&animation=fadeIn&desc=Staff-Track%20Backend%20Engineer%20%7C%20High-Throughput%20Distributed%20Systems&descSize=18&descAlignY=68" width="100%" alt="Tran Van Manh - Staff Software Engineer Hero Banner" title="Tran Van Manh - Staff Software Engineer" />
@@ -19,7 +19,7 @@
     <td width="58%" valign="top">
       <h3>Staff Engineering Profile</h3>
       <p>
-        <strong>Senior / Staff-Track Backend &amp; Distributed Systems Engineer</strong> graduated from <strong>Hanoi University of Science and Technology (HUST)</strong>. Specialized in architecting low-latency enterprise backends, resilient microservices, and distributed data infrastructures.
+        <strong>Senior / Staff-Track Backend &amp; Distributed Systems Engineer Intern</strong> graduated from <strong>Hanoi University of Science and Technology (HUST)</strong>. Specialized in architecting low-latency enterprise backends, resilient microservices, and distributed data infrastructures.
       </p>
       <ul>
         <li><strong>High-Throughput Core</strong>: Java 21, Spring Boot 3, Virtual Threads, Reactive Streams</li>
